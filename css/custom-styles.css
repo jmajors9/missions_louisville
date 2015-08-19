@@ -1,8 +1,13 @@
 /*I'm gonna add custom stuff in here. It's gonna melt your eyeballs*/
 
+
 /* Typography
 ========================= */
 
+/*h1, .indexH1 {
+	font-size: 16px;
+}
+*/
 .logo-text {
 	text-decoration: none;
 	font-family: helvetica, arial;
@@ -20,10 +25,18 @@
 /* Jumbotron
 ========================= */
 .jumbotron {
-	padding-top: 200px;
-}
+	padding-top: 100px;
 
-/* Images
+}
+/*.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  background-color: olivedrab;
+}
+*/
+/* Layout
 ========================= */
 
 .regionColumns {
@@ -32,4 +45,20 @@
 
 .regionRow {
 	padding-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+	.mainMapSVG	{
+		padding-top: 30px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.mainMapSVG	{
+		padding-top: 40px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.mainMapSVG	{
+		padding-top: 40px;
+	}
 }

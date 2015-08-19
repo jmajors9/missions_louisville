@@ -4894,12 +4894,16 @@ button.close {
 @-ms-viewport {
   width: device-width;
 }
+.visible-xxs,
 .visible-xs,
 .visible-sm,
 .visible-md,
 .visible-lg {
   display: none !important;
 }
+.visible-xxs-block,
+.visible-xxs-inline,
+.visible-xxs-inline-block,
 .visible-xs-block,
 .visible-xs-inline,
 .visible-xs-inline-block,
@@ -4913,6 +4917,36 @@ button.close {
 .visible-lg-inline,
 .visible-lg-inline-block {
   display: none !important;
+}
+@media (max-width: 559px) {
+  .visible-xxs {
+    display: block !important;
+  }
+  table.visible-xxs {
+    display: table !important;
+  }
+  tr.visible-xxs {
+    display: table-row !important;
+  }
+  th.visible-xxs,
+  td.visible-xxs {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xxs-block {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xxs-inline {
+    display: inline !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xxs-inline-block {
+    display: inline-block !important;
+  }
 }
 @media (max-width: 767px) {
   .visible-xs {
@@ -5032,6 +5066,11 @@ button.close {
 @media (min-width: 1200px) {
   .visible-lg-inline-block {
     display: inline-block !important;
+  }
+}
+@media (max-width: 559px) {
+  .hidden-xxs {
+    display: none !important;
   }
 }
 @media (max-width: 767px) {
