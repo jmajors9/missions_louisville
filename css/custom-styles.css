@@ -22,6 +22,28 @@
 
 }
 
+/* SVG Map
+========================= */
+
+#north_america:hover {
+	fill: papayawhip;
+}
+#south_america:hover {
+	fill: papayawhip;
+}
+#africa:hover {
+	fill: papayawhip;
+}
+#asia:hover {
+	fill: papayawhip;
+}
+#australia:hover {
+	fill: papayawhip;
+}
+#europe:hover {
+	fill: papayawhip;
+}
+
 /* Jumbotron
 ========================= */
 .jumbotron {
