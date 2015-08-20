@@ -1,6 +1,7 @@
 /*I'm gonna add custom stuff in here. It's gonna melt your eyeballs*/
 
 
+
 /* Typography
 ========================= */
 
@@ -15,6 +16,9 @@
 	font-weight: bold;
 }
 
+.navbar-text {
+	font-size: 16px;
+}
 
 /* Logos, etc.
 ========================= */
@@ -47,18 +51,14 @@
 ========================= */
 .jumbotron {
 	padding-top: 100px;
+}
 
-}
-/*.jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: #ffffff;
-  background-color: olivedrab;
-}
-*/
 /* Layout
 ========================= */
+
+.navbar {
+
+}
 
 .regionColumns {
 	padding-bottom: 5px;
@@ -72,13 +72,28 @@
 	.mainMapSVG	{
 		padding-top: 30px;
 	}
+	.navbar {
+		max-height: 60px;
+		min-height: 30px;		
+	}
+	.navbar-text {
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.mainMapSVG	{
 		padding-top: 40px;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199) {
+	.mainMapSVG	{
+		padding-top: 40px;
+	}
+}
+@media (min-width: 1200px) {
 	.mainMapSVG	{
 		padding-top: 40px;
 	}
