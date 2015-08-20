@@ -5,10 +5,7 @@
 /* Typography
 ========================= */
 
-/*h1, .indexH1 {
-	font-size: 16px;
-}
-*/
+
 .logo-text {
 	text-decoration: none;
 	font-family: helvetica, arial;
@@ -47,6 +44,7 @@
 	fill: #C5E1A5;
 }
 
+
 /* Jumbotron
 ========================= */
 .jumbotron {
@@ -77,24 +75,26 @@
 		min-height: 30px;		
 	}
 	.navbar-text {
-	font-size: 16px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+		font-size: 16px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 }
 
-}
 @media (min-width: 768px) and (max-width: 991px) {
 	.mainMapSVG	{
 		padding-top: 40px;
 	}
-}
-@media (min-width: 992px) and (max-width: 1199) {
-	.mainMapSVG	{
-		padding-top: 40px;
+	.jumbotron h1, 
+	.jumbotron .h1 {
+		font-size: 48px;
 	}
 }
+@media (min-width: 992px) and (max-width: 1199) {
+	
+}
 @media (min-width: 1200px) {
-	.mainMapSVG	{
-		padding-top: 40px;
+	.jumbotron h1 {
+		font-size: 63px;
 	}
 }
