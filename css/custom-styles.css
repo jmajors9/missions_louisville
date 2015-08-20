@@ -25,40 +25,20 @@
 /* SVG Map
 ========================= */
 
-#north_america:hover {
-	fill: #FFFDE7;
-}
-#south_america:hover {
-	fill: #FFFDE7;
-}
-#africa:hover {
-	fill: #FFFDE7;
-}
-#asia:hover {
-	fill: #FFFDE7;
-}
-#australia:hover {
-	fill: #FFFDE7;
-}
+#north_america:hover, 
+#south_america:hover, 
+#africa:hover, 
+#asia:hover, 
+#australia:hover, 
 #europe:hover {
 	fill: #FFFDE7;
 }
 
-#north_america:active {
-	fill: #C5E1A5;
-}
-#south_america:active {
-	fill: #C5E1A5;
-}
-#africa:active {
-	fill: #C5E1A5;
-}
-#asia:active {
-	fill: #C5E1A5;
-}
-#australia:active {
-	fill: #C5E1A5;
-}
+#north_america:active, 
+#south_america:active, 
+#africa:active, 
+#asia:active, 
+#australia:active, 
 #europe:active {
 	fill: #C5E1A5;
 }
@@ -98,7 +78,7 @@
 		padding-top: 40px;
 	}
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) {
 	.mainMapSVG	{
 		padding-top: 40px;
 	}
