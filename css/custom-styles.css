@@ -45,7 +45,22 @@
 }
 
 #north_america:active {
-	fill: #FDD835;
+	fill: #A5D6A7;
+}
+#south_america:active {
+	fill: #A5D6A7;
+}
+#africa:active {
+	fill: #A5D6A7;
+}
+#asia:active {
+	fill: #A5D6A7;
+}
+#australia:active {
+	fill: #A5D6A7;
+}
+#europe:active {
+	fill: #A5D6A7;
 }
 
 /* Jumbotron
