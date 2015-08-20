@@ -26,22 +26,26 @@
 ========================= */
 
 #north_america:hover {
-	fill: papayawhip;
+	fill: #FFFDE7;
 }
 #south_america:hover {
-	fill: papayawhip;
+	fill: #FFFDE7;
 }
 #africa:hover {
-	fill: papayawhip;
+	fill: #FFFDE7;
 }
 #asia:hover {
-	fill: papayawhip;
+	fill: #FFFDE7;
 }
 #australia:hover {
-	fill: papayawhip;
+	fill: #FFFDE7;
 }
 #europe:hover {
-	fill: papayawhip;
+	fill: #FFFDE7;
+}
+
+#north_america:active {
+	fill: #FDD835;
 }
 
 /* Jumbotron
