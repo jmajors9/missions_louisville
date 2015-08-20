@@ -19,6 +19,3 @@
     //     map.write("mapdiv");
     // });
 
-$("#north_america.land").click(function() {
-    
-});
