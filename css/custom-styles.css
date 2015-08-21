@@ -19,9 +19,7 @@
 
 /* Logos, etc.
 ========================= */
-.main-logo {
 
-}
 
 /* SVG Map
 ========================= */
@@ -54,10 +52,6 @@
 /* Layout
 ========================= */
 
-.navbar {
-
-}
-
 .regionColumns {
 	padding-bottom: 5px;
 }
@@ -78,6 +72,9 @@
 		font-size: 16px;
 		margin-top: 20px;
 		margin-bottom: 20px;
+	}
+	.jumbotron {
+		padding-top: 50px;
 	}
 }
 

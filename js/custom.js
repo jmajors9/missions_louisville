@@ -19,3 +19,16 @@
     //     map.write("mapdiv");
     // });
 
+/********
+Index stuff
+*********/
+// create an array relating the region buttons to the region on the SVG.
+// make a function where all actions relate to eachother.
+
+$("#northAmericaButton").hover(function() {
+    (#north_america.land).blur();
+});
+
+// $( "a" ).mouseout(function( event ) {
+//   alert( event.relatedTarget.nodeName ); // "DIV"
+// });
