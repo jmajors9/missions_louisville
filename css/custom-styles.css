@@ -2,6 +2,7 @@
 
 
 
+
 /* Typography
 ========================= */
 
@@ -41,6 +42,15 @@
 #europe:active {
 	fill: #C5E1A5;
 }
+
+/* Region Map
+========================= */
+
+#regionMap {
+  		width: 500px;
+  		height: 400px;
+  		background-color: #ccc;
+  	}
 
 
 /* Jumbotron
