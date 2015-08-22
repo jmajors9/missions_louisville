@@ -33,14 +33,14 @@ function initialize() {
             var mapOptions = {
                 center: new google.maps.LatLng(0.2136715,16.9848501),
                 zoom: 2,
-                mapTypeId: google.maps.MapTypeId.ROAD               
+                mapTypeId: google.maps.MapTypeId.ROADMAP               
             }
             var map = new google.maps.Map(mapCanvas, mapOptions);
             map.set('styles', [
               {
                 "featureType": "water",
                 "stylers": [
-                  { "color": "#808080" }
+                  { "color": "#555555" }
                 ]
               },{
                 "featureType": "poi",
@@ -80,40 +80,6 @@ function initialize() {
         }
         google.maps.event.addDomListener(window, 'load', initialize);
 
-// regionMap.set ('styles', [
-//   {
-//     featureType: 'road',
-//     elementType: 'geometry',
-//     stylers: [
-//       { color: '#000000' },
-//       { weight: 1.6 }
-//     ]
-//   }, {
-//     featureType: 'road',
-//     elementType: 'labels',
-//     stylers: [
-//       { saturation: -100 },
-//       { invert_lightness: true }
-//     ]
-//   }, {
-//     featureType: 'landscape',
-//     elementType: 'geometry',
-//     stylers: [
-//       { hue: '#ffff00' },
-//       { gamma: 1.4 },
-//       { saturation: 82 },
-//       { lightness: 96 }
-//     ]
-//   }, {
-//     featureType: 'poi.school',
-//     elementType: 'geometry',
-//     stylers: [
-//       { hue: '#fff700' },
-//       { lightness: -15 },
-//       { saturation: 99 }
-//     ]
-//   }
-// ]);
 // $( "a" ).mouseout(function( event ) {
 //   alert( event.relatedTarget.nodeName ); // "DIV"
 // });
