@@ -1,39 +1,21 @@
-// SVGMap
-// ====================
-    // AmCharts.ready(function() {
-    //     var map = new AmCharts.AmMap();
-    //     map.pathToImages = "ammap/images/";
-    //     var dataProvider = {
-    //         map: "continentsLow",
-    //         getAreasFromMap:true                    
-    //     }; 
-    //     // pass data provider to the map object
-    //     map.dataProvider = dataProvider;
-
-    //     map.areasSettings = {
-    //         autoZoom: true,
-    //         selectedColor: "#CC0000"
-    //     };
-
-    //     // write the map to container div
-    //     map.write("mapdiv");
-    // });
-
 /********
 Index stuff
 *********/
 // create an array relating the region buttons to the region on the SVG.
 // make a function where all actions relate to eachother.
 
+/*********************
+Index stuff
+**********************/
+
 function initialize() {
             var mapCanvas = document.getElementById('regionMap');
-            var swLatLng = "-36.056761, 54.403794";
-            var neLatLng = "36.966439, -19.037801";
-            var darkestHeart = "0.2136715,16.9848501";
             var mapOptions = {
-                center: new google.maps.LatLng(0.2136715,16.9848501),
-                zoom: 2,
-                mapTypeId: google.maps.MapTypeId.ROADMAP               
+              center: new google.maps.LatLng(0.2136715,16.9848501),
+              zoom: 4,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+              // fitBounds(true)
+              // google.maps.LatLngBounds(-31.920006, -19.489759, 37.470052, 52.580552)
             }
             var map = new google.maps.Map(mapCanvas, mapOptions);
             map.set('styles', [
