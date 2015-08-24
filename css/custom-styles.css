@@ -1,13 +1,11 @@
 /*I'm gonna add custom stuff in here. It's gonna melt your eyeballs*/
 
 
+
 /* Typography
 ========================= */
 
-/*h1, .indexH1 {
-	font-size: 16px;
-}
-*/
+
 .logo-text {
 	text-decoration: none;
 	font-family: helvetica, arial;
@@ -15,27 +13,42 @@
 	font-weight: bold;
 }
 
+.navbar-text {
+	font-size: 16px;
+}
 
 /* Logos, etc.
 ========================= */
-.main-logo {
 
+
+/* SVG Map
+========================= */
+
+#north_america:hover, 
+#south_america:hover, 
+#africa:hover, 
+#asia:hover, 
+#australia:hover, 
+#europe:hover {
+	fill: #FFFDE7;
 }
+
+#north_america:active, 
+#south_america:active, 
+#africa:active, 
+#asia:active, 
+#australia:active, 
+#europe:active {
+	fill: #C5E1A5;
+}
+
 
 /* Jumbotron
 ========================= */
 .jumbotron {
 	padding-top: 100px;
+}
 
-}
-/*.jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: #ffffff;
-  background-color: olivedrab;
-}
-*/
 /* Layout
 ========================= */
 
@@ -51,14 +64,34 @@
 	.mainMapSVG	{
 		padding-top: 30px;
 	}
+	.navbar {
+		max-height: 60px;
+		min-height: 30px;		
+	}
+	.navbar-text {
+		font-size: 16px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.jumbotron {
+		padding-top: 50px;
+	}
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
 	.mainMapSVG	{
 		padding-top: 40px;
 	}
+	.jumbotron h1, 
+	.jumbotron .h1 {
+		font-size: 48px;
+	}
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-	.mainMapSVG	{
-		padding-top: 40px;
+@media (min-width: 992px) and (max-width: 1199) {
+	
+}
+@media (min-width: 1200px) {
+	.jumbotron h1 {
+		font-size: 63px;
 	}
 }
