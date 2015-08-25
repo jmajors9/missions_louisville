@@ -4933,22 +4933,22 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 559px) {
   .visible-xxs-block {
     display: block !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 559px) {
   .visible-xxs-inline {
     display: inline !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 559px) {
   .visible-xxs-inline-block {
     display: inline-block !important;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 560px) and (max-width: 767px) {
   .visible-xs {
     display: block !important;
   }
@@ -4963,17 +4963,17 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 560px) and (max-width: 767px) {
   .visible-xs-block {
     display: block !important;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 560px) and (max-width: 767px) {
   .visible-xs-inline {
     display: inline !important;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 560px) and (max-width: 767px) {
   .visible-xs-inline-block {
     display: inline-block !important;
   }
@@ -5073,7 +5073,7 @@ button.close {
     display: none !important;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 560px) and (max-width: 767px) {
   .hidden-xs {
     display: none !important;
   }
