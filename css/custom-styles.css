@@ -14,6 +14,9 @@
 .navbar-text {
 	font-size: 16px;
 }
+.footer-text {
+	text-align: center;
+}
 
 /* Logos, etc.
 ========================= */
@@ -46,6 +49,9 @@
 
 /* Layout
 ========================= */
+.footer-container {
+	padding-top: 40px;
+}
 
 .regionColumns {
 	padding-bottom: 5px;
