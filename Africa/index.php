@@ -34,7 +34,6 @@
 
 			<!-- SVG Map -->
 				<div class="col-xs-8 mainMapSVG">
-					<?xml version="1.0" encoding="utf-8"?>
 					<!-- (c) ammap.com | SVG map of World - Low -->
 					<svg viewBox="425 350 195 220">
 						<defs>

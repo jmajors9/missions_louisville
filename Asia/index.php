@@ -38,7 +38,6 @@
 					</p>
 				</div>
 				<div class="col-sm-4 hidden-xs hidden-xxs">
-					<?xml version="1.0" encoding="utf-8"?>
 					<svg version="1.1" baseProfile="tiny"
 						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
 						 x="0px" y="0px" width="350px" height="359px" viewBox="-0.864 -0.333 350 359" xml:space="preserve" class="img-responsive footer-img">
