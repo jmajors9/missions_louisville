@@ -49,6 +49,13 @@
 	padding-top: 100px;
 }
 
+.world-map-BG {
+	background-image: "/var/www/missionslouisville.org/public_html/img/worldLow.svg";
+	opacity: 0.4;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 /* Layout
 ========================= */
 .footer-container {
