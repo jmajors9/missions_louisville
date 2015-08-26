@@ -11,9 +11,8 @@
 			<p>
 				missionsLouisville is designed to bring together brothers and sisters in Louisville, Kentucky around the topic and work of missions. Find out and join in on what other churches are doing here and around the world. 
 				<br>
-				Keep scrolling to find some great resources.
-				<br>
-				<? include("/var/www/missionslouisville.org/public_html/include/size-checker.php"); ?>				
+				Keep scrolling to find some great resources. (Later, that is. I'll add some books that you should check out. Aside from "The Good Book", of course.)
+				<br>		
 			</p>
 		</div>
 	</div>
