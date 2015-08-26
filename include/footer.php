@@ -37,8 +37,8 @@
 				</svg>				
 			</div>
 			<div class="col-xs-6 col-sm-4">
-				<p>The answer is: man. At birth he crawls, in his prime he walks, near death he leans on a cane.
-				</p>
+				<p>Do you have an event you would like to add?</p>
+				<button class="button">Add Event</button>
 			</div>
 		</div>
 	</div>
