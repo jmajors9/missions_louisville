@@ -38,7 +38,7 @@
 			</div>
 			<div class="col-xs-6 col-sm-4">
 				<p>Do you have an event you would like to add?</p>
-				<button class="button">Add Event</button>
+				<a class="btn btn-default" href="/addevent" role="button">Add Event</a>
 			</div>
 		</div>
 	</div>
