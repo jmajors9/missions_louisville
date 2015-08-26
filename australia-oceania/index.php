@@ -7,7 +7,7 @@
 	<div class="jumbotron">
 		<div class="container">
 			<div class="col-md-4 col-sm-6">
-				<h1 class="indexH1">Australia &amp; Oceania</h1>
+				<h1 class="indexH1">Australia and Oceania</h1>
 				<p>
 					Will add a map here of east asia only. Using this as a template for Africa, and others. 
 					<br>
