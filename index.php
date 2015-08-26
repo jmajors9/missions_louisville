@@ -5,9 +5,8 @@
 	include('/var/www/missionslouisville.org/public_html/include/header.php'); ?>
 
 <!-- Jumbotron -->
-	<div class="jumbotron">
-		<div class="container">
-			<div class="visible-xxs world-map-BG"></div>
+	<div class="jumbotron world-map-BG">
+		<div class="container">			
 			<div class="row">
 				<div class="col-md-4">	
 					<h1 class="indexH1">Reaching the World</h1>				
