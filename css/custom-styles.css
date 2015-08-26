@@ -34,13 +34,11 @@
 
 }
 
-
-
 #regionMap {
-  		width: 500px;
-  		height: 400px;
-  		background-color: #ccc;
-  	}
+	width: 500px;
+	height: 400px;
+	background-color: #ccc;
+}
 
 
 /* Jumbotron
@@ -50,7 +48,7 @@
 }
 
 .world-map-BG {
-	background-image: "/var/www/missionslouisville.org/public_html/ammap/maps/svg/continentsLow.svg";
+	background-image: url("/var/www/missionslouisville.org/public_html/ammap/maps/svg/continentsLow.svg");
 	opacity: 0.4;
 	background-repeat: no-repeat;
 	background-size: cover;
