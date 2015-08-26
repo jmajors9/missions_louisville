@@ -19,6 +19,9 @@
 .footer-text {
 	text-align: center;
 }
+.footer-bottom {
+	position: absolute;
+}
 
 /* Logos, etc.
 ========================= */
