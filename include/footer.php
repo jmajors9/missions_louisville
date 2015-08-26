@@ -21,7 +21,7 @@
 					</style>						
 				</defs>
 				<path class="fillFDL" d="M297.69,147.804c-47.642-5.459-97.763,27.791-107.192,94.289c-0.329,2.318-0.605,4.685-0.824,7.076h-2.81
-					c4.056-45.102,22.727-76.399,33.905-97.214c14.49-26.98,2.729-53.559-2.997-65.452C211.276,73.013,181.848,18.486,174.354,0
+					 c4.056-45.102,22.727-76.399,33.905-97.214c14.49-26.98,2.729-53.559-2.997-65.452C211.276,73.013,181.848,18.486,174.354,0
 					c-7.494,18.486-36.702,73.013-43.198,86.503c-5.728,11.893-17.488,38.472-2.998,65.452c11.103,20.673,29.87,52.316,34.226,97.214
 					h-3.208c-0.219-2.392-0.495-4.758-0.824-7.076c-9.43-66.499-59.551-99.748-107.192-94.289
 					c-53.284,6.105-81.882,90.319,0.496,110.666c-13.399-24.813,7.443-69.477,55.583-44.167c15.656,8.232,26.561,21.383,31.072,34.866
@@ -42,13 +42,12 @@
 			</div>
 		</div>
 	</div>
-	<div class="panel-footer">
-      <div class="footer-bottom">
-      	<div class="footer-text">
-      		<p>Copyright &copy; 2015 - TheVille || A MajorStudios Website</p>
-      	</div>
-      </div>
-	</div>
+	<footer class="panel-footer">
+      	::before
+      	<div class="container"> <p class="text-muted">Copyright &copy; 2015 - TheVille || A MajorStudios Website</p></div>
+      	::after
+	</footer>
+	
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="/js/custom.js" type="text/javascript"></script>
