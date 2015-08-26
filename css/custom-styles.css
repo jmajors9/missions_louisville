@@ -47,11 +47,13 @@
 	padding-top: 100px;
 }
 
-.world-map-BG {
-	background-image: url("/var/www/missionslouisville.org/public_html/ammap/maps/svg/continentsLow.svg");
-	opacity: 0.4;
-	background-repeat: no-repeat;
-	background-size: cover;
+@media (max-width: 559px) {
+	.world-map-BG {
+		background-image: url("/var/www/missionslouisville.org/public_html/ammap/maps/svg/continentsLow.svg");
+		opacity: 0.4;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 }
 
 /* Layout
@@ -79,7 +81,7 @@
 	
 }
 
-@media (max-width: 767px) {
+@media (min-width: 560px) and (max-width: 767px) {
 	.mainMapSVG	{
 		padding-top: 30px;
 	}
