@@ -7,7 +7,7 @@
 	<div class="jumbotron">
 		<div class="container">
 			<div class="col-sm-4 col-xs-6">
-				<h1>South America</h1>
+				<h1 class="indexH1">South America</h1>
 				<p>
 					Will add a map here of east asia only. Using this as a template for Africa, and others. 
 					<br>

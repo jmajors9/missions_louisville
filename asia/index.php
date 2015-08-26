@@ -15,7 +15,7 @@
 			</div>
 			<div class="col-md-8 hidden-xxs img-responsive africaMap">
 				<!-- (c) ammap.com | SVG map of World - Low -->
-				<svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1050 700">
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="570 275 315 225">
 					<defs>
 						<style type="text/css">
 							.land

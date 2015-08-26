@@ -6,15 +6,15 @@
 
 	<div class="jumbotron">
 		<div class="container">
-			<div class="col-md-4">
-				<h1>Australia &amp; Oceania</h1>
+			<div class="col-md-4 col-sm-6">
+				<h1 class="indexH1">Australia &amp; Oceania</h1>
 				<p>
 					Will add a map here of east asia only. Using this as a template for Africa, and others. 
 					<br>
 					Keep scrolling for stuff.
 				</p>
 			</div>
-			<div class="col-md-8 hidden-xxs img-responsive africaMap">
+			<div class="col-md-8 col-sm-6 hidden-xxs img-responsive africaMap">
 				<!-- (c) ammap.com | SVG map of World - Low -->
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="790 465 195 150">
 					<defs>
