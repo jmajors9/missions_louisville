@@ -28,7 +28,6 @@
 					<p><a href="about.html">Empty About Page</a></p>
 				</div> 
 				<div class="col-md-8 hidden-xxs mainMapSVG img-responsive">
-					<?xml version="1.0" encoding="utf-8"?>
 						<!-- (c) ammap.com | SVG map of Continents - Low -->
 						<svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1050 700">
 							<defs>
@@ -92,4 +91,4 @@
 	<!-- End Region Select -->
 
 <!-- Footer -->
-<? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>	
+<? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>
