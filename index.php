@@ -8,7 +8,7 @@
 	<div class="jumbotron">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 world-map-BG">
 					<h1 class="indexH1">Reaching the World</h1>				
 					<p>This is a work in progress. Please be patient as very little works!</p>
 					<p><a href="/about">Empty About Page</a>

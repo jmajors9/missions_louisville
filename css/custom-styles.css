@@ -50,7 +50,7 @@
 }
 
 .world-map-BG {
-	background-image: "/var/www/missionslouisville.org/public_html/img/worldLow.svg";
+	background-image: "/var/www/missionslouisville.org/public_html/ammap/maps/svg/continentsLow.svg";
 	opacity: 0.4;
 	background-repeat: no-repeat;
 	background-size: cover;
