@@ -18,7 +18,7 @@
 					<p>This is a work in progress. Please be patient as very little works!</p>
 					<p><a href="/about">Empty About Page</a>
 						<br>
-					<? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>
+					<? include("/var/www/missionslouisville.org/public_html/include/size-checker.php"); ?>
 				</p>
 				</div> 
 				<div class="col-md-8 hidden-xxs mainMapSVG img-responsive">
