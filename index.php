@@ -9,16 +9,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					<h1 class="indexH1">Reaching the World</h1>
-					<!-- <p class="visible-xxs">XXS</p>
-					<p class="visible-xs">XS</p>
-					<p class="visible-sm">SM</p>
-					<p class="visible-md">md</p>
-					<p class="visible-lg">lg</p> -->
+					<h1 class="indexH1">Reaching the World</h1>				
 					<p>This is a work in progress. Please be patient as very little works!</p>
 					<p><a href="/about">Empty About Page</a>
-						<br>
-					<? include("/var/www/missionslouisville.org/public_html/include/size-checker.php"); ?>
+						<br>					
 				</p>
 				</div> 
 				<div class="col-md-8 hidden-xxs mainMapSVG img-responsive">
