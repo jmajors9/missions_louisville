@@ -9,7 +9,7 @@
 </head>
 <body>
 	
-<!-- Navbar-->
+	<!-- Navbar-->
 	<? include("/var/www/missionslouisville.org/public_html/include/navbar.php"); ?>
 	<!-- End Navbar-->
 
