@@ -10,9 +10,9 @@
 				<div class="col-xs-4">
 					<h1>Africa</h1>
 					<p>
-						This is a page about africa.
+						This is a page about Africa. I hope to add more in the future
 						<br>
-						Keep scrolling for stuff.
+						Keep scrolling for stuff. Eventually something more than the map will be there.
 					</p>
 				</div>
 

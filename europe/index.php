@@ -8,9 +8,9 @@
 			<div class="col-md-4">
 				<h1>Europe</h1>
 				<p>
-					Will add a map here of east asia only. Using this as a template for Africa, and others. 
+					I'm the map. I'm the map. I'm the map. I'm the map. I'm the map. I'm the MAP!
 					<br>
-					Keep scrolling for stuff.
+					Keep scrolling for stuff. Eventually something more than the map will be there.
 				</p>
 			</div>
 			<div class="col-md-8 hidden-xxs img-responsive">
