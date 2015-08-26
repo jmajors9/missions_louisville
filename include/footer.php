@@ -1,3 +1,4 @@
+<footer>
 <div class="container footer-container">
 		<div class="row">
 			<div class="col-xs-6 col-sm-4">
@@ -42,12 +43,12 @@
 			</div>
 		</div>
 	</div>
-	<footer class="footer">
-  	  	<div class="container"> 
+	<div class="panel-footer">
+  	  	<div class="footer-text"> 
       		<p class="text-muted">Copyright &copy; 2015 - TheVille || A MajorStudios Website</p>
-      	</div>    	
-	</footer>
-	
+      	</div>	
+	</div>
+</footer>	
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="/js/custom.js" type="text/javascript"></script>
