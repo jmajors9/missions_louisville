@@ -43,9 +43,9 @@
 		</div>
 	</div>
 	<footer class="panel-footer">
-      	::before
-      	<div class="container"> <p class="text-muted">Copyright &copy; 2015 - TheVille || A MajorStudios Website</p></div>
-      	::after
+  	  	<div class="container"> 
+      		<p class="text-muted">Copyright &copy; 2015 - TheVille || A MajorStudios Website</p>
+      	</div>    	
 	</footer>
 	
 	<script src="http://code.jquery.com/jquery.js"></script>
