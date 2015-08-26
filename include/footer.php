@@ -42,7 +42,7 @@
 			</div>
 		</div>
 	</div>
-	<footer class="panel-footer">
+	<footer class="footer">
   	  	<div class="container"> 
       		<p class="text-muted">Copyright &copy; 2015 - TheVille || A MajorStudios Website</p>
       	</div>    	
