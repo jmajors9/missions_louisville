@@ -42,8 +42,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-flow">
-      <div class="panel-footer">
+	<div class="panel-footer">
+      <div class="footer-bottom">
       	<div class="footer-text">
       		<p>Copyright &copy; 2015 - TheVille || A MajorStudios Website</p>
       	</div>
