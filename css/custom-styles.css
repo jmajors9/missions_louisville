@@ -47,14 +47,13 @@
 	padding-top: 100px;
 }
 
-@media (max-width: 559px) {
+/*@media (max-width: 559px) {
 	.world-map-BG {
 		background-image: url("/var/www/missionslouisville.org/public_html/ammap/maps/svg/continentsLow.svg");
-		opacity: 0.4;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-}
+}*/
 
 /* Layout
 ========================= */
