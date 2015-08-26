@@ -1,7 +1,10 @@
-<div class="container footer-container">
-<div class="row">
-	<? include("/var/www/missionslouisville.org/public_html/include/size-checker.php"); ?>
+<div class="container-flow">
+	<div class="row">
+		<? include("/var/www/missionslouisville.org/public_html/include/size-checker.php"); ?>
+	</div>
 </div>
+
+<div class="container footer-container">
 		<div class="row">
 			<div class="col-xs-6 col-sm-4">
 				<p>The riddle of the sphynx. What creature walks on four legs in the morning, two and noon, and three at twilight?
