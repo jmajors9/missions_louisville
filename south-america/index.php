@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>South America</title>
-	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/custom-styles.css">
-</head>
-<body>
+<?php
 
-<? include("/var/www/missionslouisville.org/public_html/include/navbar.php"); ?>
+	$title = "South America";
+
+	include('/var/www/missionslouisville.org/public_html/include/header.php'); ?>
 	
 	<div class="jumbotron">
 		<div class="container">

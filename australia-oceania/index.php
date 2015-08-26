@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Australia &amp; Oceania</title>
-	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/custom-styles.css">
-</head>
-<body>
-		<? include("/var/www/missionslouisville.org/public_html/include/navbar.php"); ?>
+<?php
 
-	
+	$title = "Australia-Oceania";
+
+	include('/var/www/missionslouisville.org/public_html/include/header.php'); ?>
+
 	<div class="jumbotron">
 		<div class="container">
 			<div class="col-md-4">

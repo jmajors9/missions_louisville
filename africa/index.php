@@ -1,19 +1,8 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Africa</title>
-		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="css/custom-styles.css">
-	  	<script src="https://maps.googleapis.com/maps/api/js"></script>	  	
-	</head>
+<?php
 
-	<body>
-	<!-- Navbar-->
-			<? include("/var/www/missionslouisville.org/public_html/include/navbar.php"); ?>
+	$title = "Africa";
 
-		<!-- End Navbar-->
+	include('/var/www/missionslouisville.org/public_html/include/header.php'); ?>
 
 	<!-- Jumbotron -->
 		<div class="jumbotron">
