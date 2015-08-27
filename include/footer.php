@@ -5,7 +5,7 @@
 					<p class="text-center">The riddle of the sphynx. What creature walks on four legs in the morning, two and noon, and three at twilight?
 					</p>
 				</div>
-				<div class="col-xs-2 col-sm-4 hidden-xxs">
+				<div class="col-sm-4 hidden-xxs">
 					<svg version="1.1" baseProfile="tiny"
 						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
 						 x="0px" y="0px" width="350px" height="359px" viewBox="-0.864 -0.333 350 359" xml:space="preserve" class="img-responsive footer-img">
@@ -32,6 +32,9 @@
 			</div>
 	</footer>
 	<footer class="footer footer-bottom panel-footer">      
+  	      		<div class="visible-xxs">
+					<img class="footer-img img-responsive" src="img/Fleur-de-lis-fill.svg">
+				</div>
 	      	<div class="text-center">
 	      		<p>Copyright &copy; 2015 - TheVille || A MajorStudios Website</p>
 	      	</div>      
