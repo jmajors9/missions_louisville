@@ -1,0 +1,117 @@
+{
+	"churches": [
+		{
+			"id": 1,
+			"name": "Primero Iglesia del Louisville",
+			"minister": "Julio Diaz",
+			"email": "jdiaz@example.org",
+			"address": "123 Any Street",
+			"city": "Louisville",
+			"state": "Kentucky",
+			"zip-code": 40214,
+			"website": "primeroiglesia.example.org"
+		},
+		{			
+			"id": 2,
+			"name": "View of the Valley Baptist Church",
+			"minister": "Jamal Warner",
+			"email": "jamal@example.com",
+			"address": "123 Other Avenue",
+			"city": "New Albany",
+			"state": "Indiana",
+			"zip-code": 40202,
+			"website": "vvbc.example.org"
+		}
+
+	],
+	"events": [
+		{		
+			"id": 1,
+			"long-term": false,
+			"name": "engage",
+			"country": "Albania",
+			"name": "",
+			"email": "",
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip-code": "",
+			"website": "",
+			"date-start": "20160615",			
+			"date-end": "20160815",	
+			"annual": true,
+			"description": "Come join us as we engage the people of Albania."
+		},
+		{		
+			"id": 2,
+			"long-term": false,
+			"name": "ESL in East Asia",
+			"country": "",			
+			"email": "",
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip-code": "",
+			"website": "",
+			"date-start": "20160615",			
+			"date-end": "20160815",
+			"annual": true,
+			"description": "Come join us as we teach English as a Second Language to the people of East Asia."
+		}
+		{
+			"id": 3,
+			"long-term": true,
+			"name": "Jennifer Lindsay",
+			"country": "India",
+			"email": "jenlin@example.org",
+			"address": "123 Any Street",
+			"city": "Louisville",
+			"state": "Kentucky",
+			"zip-code": 40214,
+			"website": "jennifer.india.example.com",			
+			"date-start": "20160615",			
+			"date-end": "20160815",
+			"annual": true,
+			"description": "Dr. Jennifer Lindsay is moving to India to work in a leper colony."
+
+		},
+		{
+			"id": 4,
+			"long-term": true,
+			"name": "Charity Blackwell",
+			"country": "Peru",
+			"email": "CharityB@example.org",
+			"address": "456 This Road",
+			"city": "Louisville",
+			"state": "Kentucky",
+			"zip-code": 40209,
+			"website": "charity.peru.example.com",
+			"date-start": "20160615",			
+			"date-end": "20160815",	
+			"description": "Charity is moving to Peru. Due to the sensitive nature of her work, we are unable to provide more information."		
+		}
+	
+	],
+	"sender": [
+		{
+			"id": 1,
+			"name": "International Misison Board",
+			"email": "director@example.com",
+			"address": false,
+			"city": false,
+			"state": false,
+			"zip-code": 00000,
+			"website": "imb.example.com"
+		},
+		{
+			"id": 2,
+			"name": "North American Mission Board",
+			"email": "director@example.com",
+			"address": false,
+			"city": false,
+			"state": false,
+			"zip-code": 00000,
+			"website": "namb.example.com"
+		}
+	]
+}
