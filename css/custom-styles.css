@@ -27,15 +27,9 @@ body {
 	position: absolute;
     bottom: 0;
 	width: 100%;
-  /* Set the fixed height of the footer here */
-	height: 130px;
-}
-.footer-very-bottom {
-	position: absolute;
-    bottom: 0;
-	width: 100%;
-  /* Set the fixed height of the footer here */
-	height: 10px;
+	height: 60px;
+	padding-bottom: 15%;
+	/*border-bottom: 10px solid #555;*/
 }
 
 /* Logos, etc.
