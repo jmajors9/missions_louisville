@@ -17,7 +17,7 @@
 							fill-opacity: 0.3;
 							stroke: #CCCCCC;
 							stroke-opacity: 0.9;
-							stroke-width: 2;
+							stroke-width: 3;
 						}
 					</style>						
 				</defs>
@@ -33,10 +33,10 @@
 	<!-- <footer class="footer panel-footer">      
       	<div class="footer-text">
       		<p>Copyright &copy; 2015 - TheVille || A MajorStudios Website</p>
-      	</div>      
+      	</div>       -->
 	</div>
-</footer> -->
-<script src="http://code.jquery.com/jquery.js"></script>
+</footer>
+	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/custom.js" type="text/javascript"></script>
 </body>
