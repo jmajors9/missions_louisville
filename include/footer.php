@@ -26,8 +26,9 @@
 				<p class="footer-text">Copyright &copy; 2015 - TheVille<br>A MajorStudios Website</p>
 			</div>
 			<div class="col-xs-6 col-sm-4">
-				<p>The answer is: man. At birth he crawls, in his prime he walks, near death he leans on a cane.
+				<p>Do you have an Event or Person to add?
 				</p>
+				<a class="btn btn-default" href="/var/www/missionslouisville.org/public_html/include/add-event.php" role="button">Add Event/Person</a>
 			</div>
 		</div>
 	<!-- <footer class="footer panel-footer">      
