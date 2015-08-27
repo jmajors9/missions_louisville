@@ -38,8 +38,8 @@
 		</div>
 	</footer>
 	<script src="http://code.jquery.com/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/custom.js" type="text/javascript"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/custom.js" type="text/javascript"></script>
 </body>
 
 </html>

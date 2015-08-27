@@ -8,7 +8,7 @@
 			"address": "123 Any Street",
 			"city": "Louisville",
 			"state": "Kentucky",
-			"zip-code": 40214,
+			"zip-code": "40214",
 			"website": "primeroiglesia.example.org"
 		},
 		{			
@@ -19,7 +19,7 @@
 			"address": "123 Other Avenue",
 			"city": "New Albany",
 			"state": "Indiana",
-			"zip-code": 40202,
+			"zip-code": "40202",
 			"website": "vvbc.example.org"
 		}
 
@@ -57,7 +57,7 @@
 			"date-end": "20160815",
 			"annual": true,
 			"description": "Come join us as we teach English as a Second Language to the people of East Asia."
-		}
+		},
 		{
 			"id": 3,
 			"long-term": true,
@@ -67,7 +67,7 @@
 			"address": "123 Any Street",
 			"city": "Louisville",
 			"state": "Kentucky",
-			"zip-code": 40214,
+			"zip-code": "40214",
 			"website": "jennifer.india.example.com",			
 			"date-start": "20160615",			
 			"date-end": "20160815",
@@ -84,7 +84,7 @@
 			"address": "456 This Road",
 			"city": "Louisville",
 			"state": "Kentucky",
-			"zip-code": 40209,
+			"zip-code": "40209",
 			"website": "charity.peru.example.com",
 			"date-start": "20160615",			
 			"date-end": "20160815",	
@@ -100,7 +100,7 @@
 			"address": false,
 			"city": false,
 			"state": false,
-			"zip-code": 00000,
+			"zip-code": 0,
 			"website": "imb.example.com"
 		},
 		{
@@ -110,7 +110,7 @@
 			"address": false,
 			"city": false,
 			"state": false,
-			"zip-code": 00000,
+			"zip-code": 0,
 			"website": "namb.example.com"
 		}
 	]
