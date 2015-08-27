@@ -33,7 +33,7 @@
 	</footer>
 	<footer class="footer footer-bottom panel-footer">      
   	      		<div class="visible-xxs">
-					<img class="footer-img img-responsive" src="img/Fleur-de-lis-fill.svg">
+					<img class="footer-img img-responsive" src="/img/Fleur-de-lis-fill.svg">
 				</div>
 	      	<div class="text-center">
 	      		<p>Copyright &copy; 2015 - TheVille || A MajorStudios Website</p>
