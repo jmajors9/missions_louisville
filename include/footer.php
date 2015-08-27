@@ -25,9 +25,9 @@
 					</svg>					
 				</div>
 				<div class="col-xs-6 col-sm-4">
-					<p class="text-center">Do you have an Event or Person to add?
+					<p class="text-right">Do you have an Event or Person to add?
 					</p>
-					<a class="btn btn-default btn-lg" href="/add-event/" role="button">Add Event/Person</a>
+					<a class="btn btn-default btn-lg pull-right" href="/add-event/" role="button">Add Event/Person</a>
 				</div>
 			</div>
 	</footer>
