@@ -27,7 +27,7 @@
 				<div class="col-xs-6 col-sm-4">
 					<p class="text-center">Do you have an Event or Person to add?
 					</p>
-					<a class="btn btn-default btn-lg" href="/var/www/missionslouisville.org/public_html/include/add-event.php" role="button">Add Event/Person</a>
+					<a class="btn btn-default btn-lg" href="/var/www/missionslouisville.org/public_html/include/add-event/" role="button">Add Event/Person</a>
 				</div>
 			</div>
 	</footer>
