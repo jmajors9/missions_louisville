@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-5 col-sm-4">
-					<p class="text-left">The riddle of the sphynx. What creature walks on four legs in the morning, two and noon, and three at twilight?
+					<p class="text-center">The riddle of the sphynx. What creature walks on four legs in the morning, two and noon, and three at twilight?
 					</p>
 				</div>
 				<div class="col-xs-2 col-sm-4 hidden-xxs">
@@ -25,9 +25,9 @@
 					</svg>					
 				</div>
 				<div class="col-xs-5 col-sm-4">
-					<p class="text-right">Do you have an Event or Person to add?
+					<p class="text-center">Do you have an Event or Person to add?
 					</p>
-					<a class="btn btn-default btn-lg pull-right" href="/add-event/" role="button">Add Event/Person</a>
+					<a class="btn btn-default btn-block" href="/add-event/" role="button">Add Event/Person</a>
 				</div>
 			</div>
 	</footer>
