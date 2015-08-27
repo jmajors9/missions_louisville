@@ -74,9 +74,11 @@ body {
 	height: auto;
 }
 
-.footer-img {
+.footer-fleur-top,
+.footer-fleur-bottom {
 	margin: auto;
-	width: 35%;
+	width: 40%;
+
 }
 .footer-top {
 	position: relative;
@@ -101,7 +103,7 @@ body {
 }
 
 @media (max-width: 559px) {
-	
+	.footer-fleur-bottom:  ;
 }
 
 @media (min-width: 560px) and (max-width: 767px) {
@@ -120,6 +122,9 @@ body {
 	.jumbotron {
 		padding-top: 50px;
 	}
+	.footer-fleur-top {
+		;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -129,6 +134,9 @@ body {
 	.jumbotron h1, 
 	.jumbotron .h1 {
 		font-size: 48px;
+	}
+	.footer-fleur-top {
+
 	}
 }
 @media (min-width: 992px) and (max-width: 1199) {
