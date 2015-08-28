@@ -7,7 +7,7 @@
 		<link href='https://fonts.googleapis.com/css?family=News+Cycle:400,700|Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="/css/custom-styles.css">
-	  	<script src="https://maps.googleapis.com/maps/api/js"></script>	  	
+	  	<!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
 	</head>
 	<body>
 
