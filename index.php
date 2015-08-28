@@ -4,18 +4,16 @@
 
 	include('/var/www/missionslouisville.org/public_html/include/header.php'); ?>
 
-<!-- Jumbotron -->
-	<div class="jumbotron world-map-BG">
-		<div class="container">			
-			<div class="row">
-				<div class="col-md-4">	
-					<h1 class="indexH1">Reaching the World</h1>				
-					<p>This is a work in progress. Please be patient as very little works!</p>
-					<p><a href="/about">Empty About Page</a>
-						<br>					
-				</p>
-				</div> 
-				<div class="col-md-8 mainMapSVG img-responsive">
+	<!-- Jumbotron -->
+		<div class="jumbotron world-map-BG">
+			<div class="container">			
+				<div class="row">
+					<div class="col-md-4">	
+						<h1>Reaching the World</h1>				
+						<p>There are so many churches in the Derby City that send believers abroad. Click on a continent to find out what's happening there. </p>
+						<p><a href="/about">Read more about us</a></p>
+					</div> 
+					<div class="col-md-8 mainMapSVG img-responsive">
 						<!-- (c) ammap.com | SVG map of Continents - Low -->
 						<svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1050 700">
 							<defs>
@@ -29,10 +27,8 @@
 										stroke-width:0.5;
 									}
 								</style>
-
 								<amcharts:ammap projection="mercator" leftLongitude="-169.6" topLatitude="83.68" rightLongitude="190.25" bottomLatitude="-55.55"></amcharts:ammap>
 								<!--{id:"south_america"},{id:"north_america"},{id:"asia"},{id:"europe"},{id:"australia"},{id:"africa"}-->
-
 							</defs>
 							<g>
 								'''<a xlink:href= "/south-america">
@@ -55,28 +51,28 @@
 								</a>'''
 							</g>
 						</svg>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- End Jumbotron -->
+		<!-- End Jumbotron -->
 
-<!-- Region Select -->
-	<div class="container">
-		<div class="row regionRow">
-			<div class="col-xs-6 regionColumns">
-				<a class="btn btn-default btn-lg btn-block" href="/africa">Africa</a>
-				<a class="btn btn-default btn-lg btn-block" href="/asia">Asia</a>
-				<a class="btn btn-default btn-lg btn-block" href="/australia-oceania">Australia/Oceania</a>
+	<!-- Region Select -->
+		<div class="container">
+			<div class="row regionRow">
+				<div class="col-xs-6 regionColumns">
+					<a class="btn btn-default btn-lg btn-block" href="/africa">Africa</a>
+					<a class="btn btn-default btn-lg btn-block" href="/asia">Asia</a>
+					<a class="btn btn-default btn-lg btn-block" href="/australia-oceania">Australia/Oceania</a>
+				</div>
+				<div class="col-xs-6 regionColumns">
+					<a class="btn btn-default btn-lg btn-block" href="/europe">Europe</a>
+					<a class="btn btn-default btn-lg btn-block" href="/north-america">North America</a>				
+					<a class="btn btn-default btn-lg btn-block" href="/south-america">South America</a>
+				</div>			
 			</div>
-			<div class="col-xs-6 regionColumns">
-				<a class="btn btn-default btn-lg btn-block" href="/europe">Europe</a>
-				<a class="btn btn-default btn-lg btn-block" href="/north-america">North America</a>				
-				<a class="btn btn-default btn-lg btn-block" href="/south-america">South America</a>
-			</div>			
 		</div>
-	</div>
-	<!-- End Region Select -->
+		<!-- End Region Select -->
 
 <!-- Footer -->
 <? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>

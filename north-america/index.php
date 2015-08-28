@@ -7,14 +7,11 @@
 	<div class="jumbotron">
 		<div class="container">
 			<div class="col-md-4">
-				<h1 class="indexH1">North America</h1>
-				<p>
-					I'm the map. I'm the map. I'm the map. I'm the map. I'm the map. I'm the MAP!
-					<br>
-					Keep scrolling for stuff. Eventually something more than the map will be there.
-				</p>
+				<h1>North America</h1>
+				<p>Highlighted countries are active. Click on a country to find out more.</p>
+				<p>Scroll down to see a list of all events/persons in this region</p>
 			</div>
-			<div class="col-md-8 hidden-xxs img-responsive">
+			<div class="col-md-8 img-responsive">
 				<!-- (c) ammap.com | SVG map of World - Low -->
 				<svg class="africaMap" viewBox="0 100 350 350">
 					<defs>

@@ -7,13 +7,10 @@
 		<div class="container">
 			<div class="col-md-4">
 				<h1>Asia</h1>
-				<p>
-				We have a map on this page now! How great is that?
-				<br>
-				Keep scrolling for stuff. Eventually something more than the map will be there.
-				</p>
+				<p>Highlighted countries are active. Click on a country to find out more.</p>
+				<p>Scroll down to see a list of all events/persons in this region</p>
 			</div>
-			<div class="col-md-8 hidden-xxs img-responsive">
+			<div class="col-md-8 img-responsive">
 				<!-- (c) ammap.com | SVG map of World - Low -->
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="570 275 315 225">
 					<defs>
