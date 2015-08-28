@@ -47,7 +47,7 @@
 		{
 			"id": 4,
 			"name": "Lutheran Church of St. Matthews",
-			"minister": "Stephen Pierce",
+			"minister": "Stephan Pierce",
 			"email": "spierce@example.com",
 			"address": "777 Sweet Street",
 			"city": "Louisville",
@@ -82,7 +82,9 @@
 			"date-start": ,
 			"date-end": ,
 			"annual": ,
-			"description": 
+			"description": ,
+			"sender": ,
+			"churches": ,
 		},
 		{		
 			"id": 1,
@@ -98,7 +100,9 @@
 			"date-start": "20160615",			
 			"date-end": "20160815",	
 			"annual": true,
-			"description": "Come join us as we engage the people of Albania."
+			"description": "Come join us as we engage the people of Albania.",
+			"sender": 1,
+			"churches": 1,
 		},
 		{		
 			"id": 2,
@@ -114,7 +118,9 @@
 			"date-start": "20160615",			
 			"date-end": "20160815",
 			"annual": true,
-			"description": "Come join us as we teach English as a Second Language to the people of East Asia."
+			"description": "Come join us as we teach English as a Second Language to the people of East Asia.",
+			"sender": 3,
+			"churches": 1,
 		},
 		{
 			"id": 3,
@@ -130,7 +136,9 @@
 			"date-start": "20160615",			
 			"date-end": "20160815",
 			"annual": true,
-			"description": "Dr. Jennifer Lindsay is moving to India to work in a leper colony."
+			"description": "Dr. Jennifer Lindsay is moving to India to work in a leper colony.",
+			"sender": 4,
+			"churches": 2,
 
 		},
 		{
@@ -146,7 +154,9 @@
 			"website": "charity.peru.example.com",
 			"date-start": "20160615",			
 			"date-end": "20160815",	
-			"description": "Charity is moving to Peru. Due to the sensitive nature of her work, we are unable to provide more information."		
+			"description": "Charity is moving to Peru. Due to the sensitive nature of her work, we are unable to provide more information."		,
+			"sender": 2,
+			"churches": 2,
 		},
 		{		
 			"id": 5,
@@ -162,7 +172,9 @@
 			"date-start": "20161215",
 			"date-end": "20170114",
 			"annual": false,
-			"description": "Join us as we help local churches in Paraguay."
+			"description": "Join us as we help local churches in Paraguay.",
+			"sender": 5,
+			"churches": 3,
 		},
 		{		
 			"id": 6,
@@ -175,10 +187,12 @@
 			"state": ,
 			"zip-code": ,
 			"website": "example.com",
-			"date-start": ,
-			"date-end": ,
+			"date-start": 20160604,
+			"date-end": 20160619,
 			"annual": true,
-			"description": 
+			"description": "We will be visiting churches all over the Ukraine to encourage our brothers and sisters. We are also blessed to deliver many gifts on our journey.",
+			"sender": 1,
+			"churches": 3,
 		},
 		{		
 			"id": 7,
@@ -194,7 +208,9 @@
 			"date-start": ,
 			"date-end": ,
 			"annual": ,
-			"description": 
+			"description": "Jedediah has the unique opportunity of taking his farming knowhow to the people",
+			"sender": 2,
+			"churches": 4,
 		},
 		{		
 			"id": 8,
@@ -207,10 +223,12 @@
 			"state": ,
 			"zip-code": ,
 			"website": "example.com",
-			"date-start": ,
-			"date-end": ,
-			"annual": ,
-			"description": 
+			"date-start": 20160406,
+			"date-end": 20160427,
+			"annual": false,
+			"description": "Vamos a Nicaragua para construir los hospitales.",
+			"sender": 5,
+			"churches": 4,
 		},
 		{		
 			"id": 9,
@@ -223,10 +241,12 @@
 			"state": ,
 			"zip-code": ,
 			"website": "example.com",
-			"date-start": ,
-			"date-end": ,
+			"date-start": 201512,
+			"date-end": 201912,
 			"annual": ,
-			"description": 
+			"description": "Many Moroccans leave their home country to work in France. In Casablanca, Isaac will be serving at a local elementary school teaching French.",
+			"sender": 3,
+			"churches": 5,
 		},
 		{		
 			"id": 10,
@@ -239,10 +259,12 @@
 			"state": ,
 			"zip-code": ,
 			"website": "example.com",
-			"date-start": ,
-			"date-end": ,
-			"annual": ,
-			"description": 
+			"date-start": 20160701,
+			"date-end": 20160720,
+			"annual": true,
+			"description": "",
+			"sender": 4,
+			"churches": 5,
 		}
 	
 	],
@@ -259,53 +281,53 @@
 		},
 		{
 			"id": 1,
-			"name": "International Mission Board",
+			"name": "SuperNational Workers Board",
 			"email": "director@example.com",
-			"address": false,
-			"city": false,
-			"state": false,
+			"address": "1 This Place",
+			"city": "",
+			"state": "",
 			"zip-code": 0,
-			"website": "imb.example.com"
+			"website": "snwb.example.com"
 		},
 		{
 			"id": 2,
-			"name": "North American Mission Board",
+			"name": "Board of North American Ministers",
 			"email": "director@example.com",
-			"address": false,
-			"city": false,
-			"state": false,
+			"address": "",
+			"city": "",
+			"state": "",
 			"zip-code": 0,
-			"website": "namb.example.com"
+			"website": "bnam.example.com"
 		},
 		{
 			"id": 3,
 			"name": "TEFL to the Nations",
 			"email": "go@example.com",
-			"address": ,
-			"city": ,
-			"state": ,
-			"zip-code": ,
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip-code": "",
 			"website": "TEFL.international.example.com"
 		},
 		{
 			"id": 4,
-			"name": "",
-			"email": ,
-			"address": ,
-			"city": ,
-			"state": ,
-			"zip-code": ,
-			"website": "example.com"
+			"name": "Worldwide Doctors Consortium",
+			"email": "",
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip-code": "",
+			"website": "wwdrc.example.com"
 		},
 		{
 			"id": 5,
-			"name": ,
-			"email": ,
-			"address": ,
-			"city": ,
-			"state": ,
-			"zip-code": ,
-			"website": "example.com"
+			"name": "Building Hope Abroad",
+			"email": "",
+			"address": "",
+			"city": "",
+			"state": "",
+			"zip-code": "",
+			"website": "buildha.example.com"
 		}
 	]
 }

@@ -79,16 +79,17 @@ body {
 .footer-fleur-bottom {
 	margin: auto;
 	max-width: 6em;
+	padding-bottom: 1em;
 }
 .footer-top {
 	position: relative;
-	padding-bottom: 1em;
 	padding-top: 60px;
 }
 
 .footer-bottom {
 	position: absolute;
 	width: 100%;
+	margin-bottom: 
 }
 
 
