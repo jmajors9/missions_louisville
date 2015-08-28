@@ -2,7 +2,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="left-footer col-xs-6 col-sm-4 ">
-						<p class="text-center">Thank you for visiting our site. If your church is not listed, tell your pastor or click "Add Event" to the right!</p>
+						<p class="text-center">Thank you for visiting our site. Don't forget that missions start in your own home!</p>
 					</div>
 					<div class="col-sm-4 hidden-xs hidden-xxs">
 						<img class="footer-fleur-top center-block" src="/img/Fleur-de-lis-fill.svg">				
