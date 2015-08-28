@@ -1,4 +1,4 @@
-<div class="navbar navbar-default navbar-fixed-top">
+<div class="navbar navbar-default navbar-fixed-top navbar-collapse">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<a class="navbar-text logo-text pull-left visible-xxs" href="/">missionsLouisville XXS</a>
