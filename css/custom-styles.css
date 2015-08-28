@@ -54,14 +54,8 @@ body {
 /* Navbar
 ========================= */
 .navbar {
-	margin-bottom: 0;
+	margin-bottom: 0;	
 }
-/*.navbar-left,{
-	float: left !important;
-}
-.navbar-right,{
-	float: right !important;
-}*/
 
 /* Footer
 ========================= */
@@ -109,7 +103,7 @@ body {
 }
 @media (max-width: 559px) {	
 	.navbar-text {
-		padding-top: 1em;
+		padding-top: 10px;
 	}
 }
 
