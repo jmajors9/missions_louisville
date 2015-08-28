@@ -1,8 +1,3 @@
-/*.size-checker {
-	display: none;
-}
-*/
-
 h1, {
 	font-family: 'News Cycle', sans-serif;
 	font-weight: bold;
@@ -60,6 +55,12 @@ body {
 ========================= */
 .navbar {
 	margin-bottom: 0;
+}
+.navbar-left,{
+	float: left !important;
+}
+.navbar-right,{
+	float: right !important;
 }
 
 /* Footer
