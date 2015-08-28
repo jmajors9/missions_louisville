@@ -1,6 +1,17 @@
 {
 	"churches": [
 		{
+			"id": ,
+			"name": ,
+			"minister": ,
+			"email": ,
+			"address": ,
+			"city": ,
+			"state": ,
+			"zip-code": ,
+			"website": 
+		},
+		{
 			"id": 1,
 			"name": "Primero Iglesia del Louisville",
 			"minister": "Julio Diaz",
@@ -21,16 +32,63 @@
 			"state": "Indiana",
 			"zip-code": "40202",
 			"website": "vvbc.example.org"
+		},
+		{
+			"id": 3,
+			"name": "Portland Methodist Church",
+			"minister": "Paul Jones",
+			"email": "pjones@example.com",
+			"address": "789 Xyz Parkway",
+			"city": "Louisville",
+			"state": "Kentucky",
+			"zip-code": "40209",
+			"website": "port.methodist.example.com"
+		},
+		{
+			"id": 4,
+			"name": "Lutheran Church of St. Matthews",
+			"minister": "Stephen Pierce",
+			"email": "spierce@example.com",
+			"address": "777 Sweet Street",
+			"city": "Louisville",
+			"state": "Kentucky",
+			"zip-code": "40223",
+			"website": "luth.matt.example.com"
+		},
+		{
+			"id": 5,
+			"name": "Shelby Park Presbyterian",
+			"minister": "Caitlyn Stephens",
+			"email": "cstephens@example.com",
+			"address": "656 Straight Avenue",
+			"city": "Louisville",
+			"state": "Kentucky",
+			"zip-code": "40202",
+			"website": "spark.presby.example.com"
 		}
-
 	],
 	"events": [
+		{		
+			"id": ,
+			"long-term": ,
+			"name": ,
+			"country": ,
+			"email": ,
+			"address": ,
+			"city": ,
+			"state": ,
+			"zip-code": ,
+			"website": ,
+			"date-start": ,
+			"date-end": ,
+			"annual": ,
+			"description": 
+		},
 		{		
 			"id": 1,
 			"long-term": false,
 			"name": "engage",
 			"country": "Albania",
-			"name": "",
 			"email": "",
 			"address": "",
 			"city": "",
@@ -80,7 +138,7 @@
 			"long-term": true,
 			"name": "Charity Blackwell",
 			"country": "Peru",
-			"email": "CharityB@example.org",
+			"email": "CBlackwell@example.org",
 			"address": "456 This Road",
 			"city": "Louisville",
 			"state": "Kentucky",
@@ -89,13 +147,119 @@
 			"date-start": "20160615",			
 			"date-end": "20160815",	
 			"description": "Charity is moving to Peru. Due to the sensitive nature of her work, we are unable to provide more information."		
+		},
+		{		
+			"id": 5,
+			"long-term": false,
+			"name": "Building Churches in Paraguay",
+			"country": "Paraguay",
+			"email": ,
+			"address": ,
+			"city": ,
+			"state": ,
+			"zip-code": ,
+			"website": "iglesias.paraguay.example.com",
+			"date-start": "20161215",
+			"date-end": "20170114",
+			"annual": false,
+			"description": "Join us as we help local churches in Paraguay."
+		},
+		{		
+			"id": 6,
+			"long-term": false,
+			"name": "",
+			"country": "Ukraine",
+			"email": "ssmith@example.com",
+			"address": ,
+			"city": ,
+			"state": ,
+			"zip-code": ,
+			"website": "example.com",
+			"date-start": ,
+			"date-end": ,
+			"annual": true,
+			"description": 
+		},
+		{		
+			"id": 7,
+			"long-term": true,
+			"name": "Jedediah Wu",
+			"country": "Guatemala",
+			"email": "@example.com",
+			"address": ,
+			"city": ,
+			"state": ,
+			"zip-code": ,
+			"website": "example.com",
+			"date-start": ,
+			"date-end": ,
+			"annual": ,
+			"description": 
+		},
+		{		
+			"id": 8,
+			"long-term": false,
+			"name": "",
+			"country": "Nicaragua",
+			"email": "nchristian@example.com",
+			"address": ,
+			"city": ,
+			"state": ,
+			"zip-code": ,
+			"website": "example.com",
+			"date-start": ,
+			"date-end": ,
+			"annual": ,
+			"description": 
+		},
+		{		
+			"id": 9,
+			"long-term": true,
+			"name": "Isaac Cooke",
+			"country": "Morocco",
+			"email": "icooke@example.com",
+			"address": ,
+			"city": ,
+			"state": ,
+			"zip-code": ,
+			"website": "example.com",
+			"date-start": ,
+			"date-end": ,
+			"annual": ,
+			"description": 
+		},
+		{		
+			"id": 10,
+			"long-term": false,
+			"name": "",
+			"country": "Burkina Faso",
+			"email": "djohnson@example.com",
+			"address": ,
+			"city": ,
+			"state": ,
+			"zip-code": ,
+			"website": "example.com",
+			"date-start": ,
+			"date-end": ,
+			"annual": ,
+			"description": 
 		}
 	
 	],
 	"sender": [
 		{
+			"id": ,
+			"name": ,
+			"email": ,
+			"address": ,
+			"city": ,
+			"state": ,
+			"zip-code": ,
+			"website": 
+		},
+		{
 			"id": 1,
-			"name": "International Misison Board",
+			"name": "International Mission Board",
 			"email": "director@example.com",
 			"address": false,
 			"city": false,
@@ -112,6 +276,36 @@
 			"state": false,
 			"zip-code": 0,
 			"website": "namb.example.com"
+		},
+		{
+			"id": 3,
+			"name": "TEFL to the Nations",
+			"email": "go@example.com",
+			"address": ,
+			"city": ,
+			"state": ,
+			"zip-code": ,
+			"website": "TEFL.international.example.com"
+		},
+		{
+			"id": 4,
+			"name": "",
+			"email": ,
+			"address": ,
+			"city": ,
+			"state": ,
+			"zip-code": ,
+			"website": "example.com"
+		},
+		{
+			"id": 5,
+			"name": ,
+			"email": ,
+			"address": ,
+			"city": ,
+			"state": ,
+			"zip-code": ,
+			"website": "example.com"
 		}
 	]
 }
