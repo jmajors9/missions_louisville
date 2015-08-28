@@ -3,13 +3,14 @@
 }
 */
 
-h1, h2{
-	font-family: 'News Cycle', sans-serif;	
+h1, h2 {
+	/*font-family: 'News Cycle', sans-serif;*/
+	font-family: 'Quattrocento Sans', sans-serif;
 }
 
 
 
-font-family: 'Quattrocento Sans', sans-serif;
+
 
 /* Email Add Event
 ========================= */
@@ -20,12 +21,12 @@ font-family: 'Quattrocento Sans', sans-serif;
 /* Typography
 ========================= */
 
-.logo-text {
+/*.logo-text {
 	text-decoration: none;
 	font-family: helvetica, arial;
 	font-size: 1em;
 	font-weight: bold;
-}
+}*/
 
 body {
 	margin-bottom: 60px;
