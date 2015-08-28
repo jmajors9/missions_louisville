@@ -3,9 +3,9 @@
 }
 */
 
-h1, h2 {
-	/*font-family: 'News Cycle', sans-serif;*/
+h1, {
 	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: bold;
 }
 p, {
 	font-family: 'News Cycle', sans-serif;
@@ -64,7 +64,7 @@ body {
 
 /* Footer
 ========================= */
-@media (max-width: 767px) {
+@media (max-width: 559px) {
 	.left-footer {
 		border-bottom: 1px solid #ccc;
 	}
