@@ -7,7 +7,7 @@
 					<div class="col-sm-4 hidden-xs hidden-xxs">
 						<img class="footer-fleur-top center-block" src="/img/Fleur-de-lis-fill.svg">				
 					</div>
-					<div class="col-xs-6 col-sm-4">
+					<div class="right-footer col-xs-6 col-sm-4">
 						<p class="text-center">Do you have an Event or Person to add?</p>
 						<a class="btn btn-default btn-block" href="/add-event/" role="button">Add Event/Person</a>
 					</div>
