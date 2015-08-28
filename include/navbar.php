@@ -1,4 +1,4 @@
-<div class="navbar navbar-default navbar-collapse">
+<nav class="navbar navbar-default navbar-collapse">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<a class="navbar-text logo-text pull-left visible-xxs" href="/">missionsLouisville XXS</a>
@@ -9,4 +9,4 @@
 			<p class="navbar-text pull-right hidden-xs hidden-xxs">from the Ville to the World</p>
 		</div>
 	</div>
-</div>
+</nav>
