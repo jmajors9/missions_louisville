@@ -84,6 +84,7 @@ body {
 .footer-top {
 	position: relative;
 	padding-top: 60px;
+	padding-bottom: 2em;
 }
 
 .footer-bottom {
