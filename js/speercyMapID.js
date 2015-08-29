@@ -1,13 +1,13 @@
 var App = {
     attachHandlers: function(){
 
-        $('.country').click(function(){
+        $('.regionMap').click(function(){
 
             var countryID = $(this).attr('id');
 
             $.each(App.data.events, function(i, event){
 
-                if(event.country == countryID){
+                if(event.regionMap == countryID){
 
                     console.log(event);
                 }
