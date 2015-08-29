@@ -36,7 +36,7 @@ var App = {
     },
     data: '',
     fetch: function(){
-        $.getJSON('url', function(response){
+        $.getJSON('/var/www/missionslouisville.org/public_html/data.json', function(response){
 
             App.data = response;
         });
