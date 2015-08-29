@@ -1,7 +1,6 @@
 var App = {
   attachHandlers: function(){
-    $("path").click(function(e){
-      e.preventDefault();
+    $("path").click(function(){
       console.log($(this).attr("title"));
 
     });
