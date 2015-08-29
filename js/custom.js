@@ -1,22 +1,22 @@
-// var App = {
-//   attachHandlers: function(){
-//     $("path").click(function(e){
-//       e.preventDefault();
-//       console.log($(this).attr("title"));
+var App = {
+  attachHandlers: function(){
+    $("path").click(function(e){
+      e.preventDefault();
+      console.log($(this).attr("title"));
 
-//     });
-//   },
-//   data: '',
-//   fetch: function () {
-//     $.getJSON("./data.json", function (response) {
-//       App.data = response;
-//     });
-//   },
-//   init: function(){
-//     App.fetch();
-//     App.attachHandlers();
-//   }
-// }
+    });
+  },
+  data: '',
+  fetch: function () {
+    $.getJSON("./data.json", function (response) {
+      App.data = response;
+    });
+  },
+  init: function(){
+    App.fetch();
+    App.attachHandlers();
+  }
+}
 
 // My playing around
 
@@ -47,31 +47,31 @@
 
 
 // Steven's original
-var App = {
-    attachHandlers: function(){
+// var App = {
+//     attachHandlers: function(){
 
-        $('.country').click(function(){
+//         $('.country').click(function(){
 
-            var countryID = $(this).attr('id');
+//             var countryID = $(this).attr('id');
 
-            $.each(App.data.events, function(i, event){
+//             $.each(App.data.events, function(i, event){
 
-                if(event.country == countryID){
+//                 if(event.country == countryID){
 
-                    console.log(event);
-                }
-            });
-        });
-    },
-    data: '',
-    fetch: function(){
-        $.getJSON('/data.json', function(response){
+//                     console.log(event);
+//                 }
+//             });
+//         });
+//     },
+//     data: '',
+//     fetch: function(){
+//         $.getJSON('/data.json', function(response){
 
-            App.data = response;
-        });
-    },
-    start: function(){
-        App.fetch();
-        App.attachHandlers();
-    }
-}
+//             App.data = response;
+//         });
+//     },
+//     start: function(){
+//         App.fetch();
+//         App.attachHandlers();
+//     }
+// }
