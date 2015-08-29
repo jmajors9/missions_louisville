@@ -46,31 +46,26 @@
 
 
 // Steven's original
-var App = {
-    data: '',
-    fetch: function(){
-        $.getJSON('/data.json', function(response){
-
-            App.data = response;
-        });
-    },
-    attachHandlers: function(){
-
-        $('path').click(function(){
-
-            var countryID = $(this).attr('title');
-
-            $.each(App.data.events, function(i, event){
-
-                if(event.country == countryID){
-
-                    console.log(event);
-                }
-            });
-        });
-    },
-    start: function(){
-        App.fetch();
-        App.attachHandlers();
-    }
+var App = {  
+  data: '',
+  fetch: function(){
+    $.getJSON('/data.json', function(response){
+      App.data = response;
+      console.log(response);
+    });
+  },
+  attachHandlers: function(){
+    $('path').click(function(){
+      var countryID = $(this).attr('title');
+      $.each(App.data.events, function(i, event){
+        if(event.country == countryID){
+          console.log(event);
+        }
+      });
+    });
+  },
+  start: function(){
+    App.fetch();
+    App.attachHandlers();
+  }
 }
