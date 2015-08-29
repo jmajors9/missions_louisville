@@ -10,7 +10,7 @@
 				<p>Highlighted countries are active. Click on a country to find out more.</p>
 				<p>Scroll down to see a list of all events/persons in this region</p>
 			</div>
-			<div class="col-md-8 img-responsive">
+			<div class="col-md-8 img-responsive regionMap">
 				<!-- (c) ammap.com | SVG map of World - Low -->
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="570 275 315 225">
 					<defs>

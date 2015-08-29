@@ -11,7 +11,7 @@
 				<p>Highlighted countries are active. Click on a country to find out more.</p>
 				<p>Scroll down to see a list of all events/persons in this region</p>
 			</div>
-			<div class="col-md-8 img-responsive">
+			<div class="col-md-8 img-responsive regionMap">
 					<!-- (c) ammap.com | SVG map of World - Low -->
 					<svg class="africaMap" viewBox="400 45 620 320">
 						<defs>

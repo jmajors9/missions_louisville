@@ -18,7 +18,7 @@
 
 
 			<!-- SVG Map -->
-				<div class="col-xs-8 mainMapSVG">
+				<div class="col-xs-8 regionMap">
 					<!-- (c) ammap.com | SVG map of World - Low -->
 					<svg viewBox="425 350 195 220">
 						<defs>
