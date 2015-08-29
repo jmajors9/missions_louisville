@@ -47,7 +47,6 @@
 
 // Steven's original
 var App = {  
-  data: '',
   fetch: function(){
     $.getJSON('/data.json', function(response){
       App.data = response;
@@ -64,6 +63,7 @@ var App = {
       });
     });
   },
+  data: '',
   start: function(){
     App.fetch();
     App.attachHandlers();
