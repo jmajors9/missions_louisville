@@ -1,8 +1,8 @@
 var App = {
   attachHandlers: function(){
     $("path").click(function(){
-      console.log($(this).attr("title"));
-
+      var countryID = $(this).attr("title");
+      console.log(countryID);
     });
   },
   data: '',
