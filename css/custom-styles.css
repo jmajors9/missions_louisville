@@ -3,7 +3,7 @@ h1 {
 	font-weight: bold;
 }
 p, a {
-	font-family: 'Arial', sans-serif;
+	font-family: 'News Cycle', sans-serif;
 }
 a {
 	text-decoration: none;
@@ -60,6 +60,11 @@ body {
 	.right-footer {
 		padding-top: 1em;
 	}
+}
+
+.center-footer {
+	padding-left: 0;
+	padding-right: 0;
 }
 .footer-container {
 	padding-top: 40px;
