@@ -47,6 +47,13 @@
 
 // Steven's original
 var App = {
+    data: '',
+    fetch: function(){
+        $.getJSON('/data.json', function(response){
+
+            App.data = response;
+        });
+    },
     attachHandlers: function(){
 
         $('path').click(function(){
@@ -60,13 +67,6 @@ var App = {
                     console.log(event);
                 }
             });
-        });
-    },
-    data: '',
-    fetch: function(){
-        $.getJSON('/data.json', function(response){
-
-            App.data = response;
         });
     },
     start: function(){
