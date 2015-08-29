@@ -20,14 +20,11 @@
 
 var App = {
     attachHandlers: function(){
-
-        $('.regionMap').click(function(){
-
+        $('path').click(function(){
             var countryID = $(this).attr('title');
-
             $.each(App.data.events, function(i, event){
 
-                if(event.regionMap == countryID){
+                if(event.path == countryID){
 
                     console.log(event);
                 } else {
