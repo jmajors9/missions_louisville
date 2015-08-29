@@ -8,11 +8,11 @@ var App = {
   },
   data: '',
   fetch: function () {
-    $.getJSON("./data.json", function (response) {
+    $.getJSON("/data.json", function (response) {
       App.data = response;
     });
   },
-  init: function(){
+  start: function(){
     App.fetch();
     App.attachHandlers();
   }
