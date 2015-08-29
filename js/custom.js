@@ -49,9 +49,9 @@
 var App = {
     attachHandlers: function(){
 
-        $('.country').click(function(){
+        $('path').click(function(){
 
-            var countryID = $(this).attr('id');
+            var countryID = $(this).attr('title');
 
             $.each(App.data.events, function(i, event){
 
