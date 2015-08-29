@@ -30,7 +30,9 @@ var App = {
                 if(event.regionMap == countryID){
 
                     console.log(event);
-                }
+                } else {
+                  console.log("Sumpn ain't raht")
+                }
             });
         });
     },
