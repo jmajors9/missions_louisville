@@ -65,7 +65,7 @@ var App = {
     },
     data: '',
     fetch: function(){
-        $.getJSON('url', function(response){
+        $.getJSON('/data.json', function(response){
 
             App.data = response;
         });
