@@ -114,7 +114,7 @@
 					</div>
 				</div>
 			</div>
-		</div> -->
+		</div> 
 		<!-- Footer -->
 	<!-- Footer -->
 <? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>
