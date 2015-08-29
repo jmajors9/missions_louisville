@@ -94,6 +94,13 @@
 			</div>
 		</div>
 		<!-- End Jumbotron -->
+		<!-- <div class="container">
+			<div class="panel panel-default">
+				<div class-"panel body">
+					Information
+				</div>
+			</div>
+		</div> -->
 		<!-- Footer -->
 	<!-- Footer -->
 <? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>
