@@ -1,8 +1,3 @@
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-
-
 // var App = {
 //   attachHandlers: function(){
 //     $("path").click(function(){
