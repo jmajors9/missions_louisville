@@ -10,8 +10,7 @@
 			<div class="row">
 				<div class="col-md-4">	
 					<h1 class="indexH1">Add your event</h1>				
-					<p>On this page you will be able to add your event. After I learn how to do that.
-						<br>Won't that be nice?								
+					<p>Tell us about how God is working!
 					</p>
 				</div> 
 				<div class="col-md-8 hidden-xxs mainMapSVG img-responsive">
@@ -59,6 +58,38 @@
 		</div>
 	</div>
 	<!-- End Jumbotron -->
+	<div class="container">
+		<div class="panel panel-default">
+			<h3 class="panel-body">
+				<p>Please select between adding an event (normally short-term work) and adding a missionary (usually long-term work).</p>
+				<p>Include as much information as you can. The more we have, the more we can work together!</p>				
+			</h3>
+		</div>	
+	</div>
+	<div class="contatiner">
+		<div class="row">
+			<div class="col-sm-6">
+				<a class="btn btn-default btn-block" href="javascript:ReverseDisplay('eventFormShowHide')">Event Form</a>
+			</div>
+			<div class="col-sm-6">
+				<a class="btn btn-default btn-block" href="javascript:ReverseDisplay('missionaryFormShowHide')">Missionary Form</a>
+			</div>
+		</div>
+		<div class="eventFormShowHide">
+			<? include("/var/www/missionslouisville.org/public_html/include/addEvent.php") ?>
+		</div>
 
+		<div class="missionaryFormShowHide">
+			<? include("/var/www/missionslouisville.org/public_html/include/addMissionary.php") ?>
+		</div>
+	</div>
 <!-- Footer -->
 <? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>
+
+
+
+
+
+
+
+

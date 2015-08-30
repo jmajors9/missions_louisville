@@ -1,50 +1,3 @@
-// var App = {
-//   attachHandlers: function(){
-//     $("path").click(function(){
-//       var countryID = $(this).attr("title");
-//       console.log(countryID);
-//     });
-//   },
-//   data: '',
-//   fetch: function () {
-//     $.getJSON("/data.json", function (response) {
-//       App.data = response;
-//     });
-//   },
-//   start: function(){
-//     App.fetch();
-//     App.attachHandlers();
-//   }
-// }
-
-// My playing around
-
-// var App = {
-//   attachHandlers: function(){
-//     $('path').click(function(){
-//       var countryID = $(this).attr('title');
-//       $.each(App.data.events, function(i, event){
-//         if(event.path == countryID){
-//           console.log(event);
-//         } else {
-//           console.log("Sumpn ain't raht")
-//         }
-//       });
-//     });
-//   },
-//   data: '',
-//   fetch: function(){
-//     $.getJSON('/data.json', function(response){
-//       App.data = response;
-//     });
-//   },
-//   start: function(){
-//     App.fetch();
-//     App.attachHandlers();
-//   }
-// }
-
-
 // Steven's original
 var App = {
   attachHandlers: function(){
@@ -68,4 +21,19 @@ var App = {
     App.fetch();
     App.attachHandlers();
   }
+};
+
+//show or hide event or missions on about page.
+
+function HideContent(d) {
+document.getElementById(d).style.display = "none";
 }
+function ShowContent(d) {
+document.getElementById(d).style.display = "block";
+}
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+
+
