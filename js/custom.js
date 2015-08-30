@@ -46,13 +46,7 @@
 
 
 // Steven's original
-var App = {  
-  fetch: function(){
-    $.getJSON('/data.json', function(response){
-      App.data = response;
-      console.log(response);
-    });
-  },
+var App = { 
   attachHandlers: function(){
     $('path').click(function(){
       var countryID = $(this).attr('title');
@@ -62,8 +56,14 @@ var App = {
         }
       });
     });
-  },
+  }, 
   data: '',
+  fetch: function(){
+    $.getJSON('/data.json', function(response){
+      App.data = response;
+      console.log(response);
+    });
+  },
   start: function(){
     App.fetch();
     App.attachHandlers();
