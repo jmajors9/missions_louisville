@@ -9,7 +9,7 @@
 					</div>
 					<div class="right-footer col-xs-6 col-sm-4">
 						<p class="text-center footer-text">Do you have an Event or Person to add?</p>
-						<a class="btn btn-default btn-block" href="/add-event/" role="button">Add Event/Person</a>
+						<a class="btn btn-default btn-block footer-text" href="/add-event/" role="button">Add Event/Person</a>
 					</div>
 				</div>
 			</div>
