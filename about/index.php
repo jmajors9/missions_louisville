@@ -14,10 +14,15 @@
 	</div>
 	<!-- End Jumbotron -->
 	<div class="container">
-<p>This is a project website. For now all information contained herein is fictional. No real names were used for persons or organizations. Any similarity to real persons or entities is entirely unintentional.
-<br>
-Our hope is that this site could become a real and useable resource for brothers and sisters around Louisville in the near future.
-<br>Blessings!<br>Joel A. Majors</p>
+		<div class="panel panel-default">
+			<h3 class="panel-heading">This is a project website.</h3>
+			<div class="panel-body">
+				<p>For now all information contained herein is fictional. No real names were used for persons or organizations. Any similarity to real persons or entities is entirely unintentional.</p>
+				<p>Our hope is that this site could become a real and useable resource for brothers and sisters around Louisville in the near future.</p>
+				<p>Blessings!</p>
+				<p>Joel A. Majors</p>
+			</div>
+		</div>	
 	</div>
 <!-- Footer -->
 <? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>
