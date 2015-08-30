@@ -13,5 +13,11 @@
 		</div>
 	</div>
 	<!-- End Jumbotron -->
+	<div class="container">
+<p>This is a project website. For now all information contained herein is fictional. No real names were used for persons or organizations. Any similarity to real persons or entities is entirely unintentional.
+<br>
+Our hope is that this site could become a real and useable resource for brothers and sisters around Louisville in the near future.
+<br>Blessings!<br>Joel A. Majors</p>
+	</div>
 <!-- Footer -->
 <? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>
