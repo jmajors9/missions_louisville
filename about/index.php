@@ -16,12 +16,12 @@
 	<div class="container">
 		<div class="panel panel-default">
 			<h3 class="panel-heading">This is a project website.</h3>
-			<div class="panel-body">
+			<h4 class="panel-body">
 				<p>For now all information contained herein is fictional. No real names were used for persons or organizations. Any similarity to real persons or entities is entirely unintentional.</p>
 				<p>Our hope is that this site could become a real and useable resource for brothers and sisters around Louisville in the near future.</p>
 				<p>Blessings!</p>
 				<p>Joel A. Majors</p>
-			</div>
+			</h4>
 		</div>	
 	</div>
 <!-- Footer -->
