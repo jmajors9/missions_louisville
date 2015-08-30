@@ -23,6 +23,11 @@ body {
 	font-family: 'News Cycle'
 }
 
+.footer-text {
+	font-size: 1.3em;
+
+}
+
 
 /* Region Map
 ========================= */
@@ -31,12 +36,6 @@ body {
 .africaMap {
 	border-style: solid;
 	border-width: 1px;
-}
-
-#regionMap {
-	width: 500px;
-	height: 400px;
-	background-color: #ccc;
 }
 
 

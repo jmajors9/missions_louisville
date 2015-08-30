@@ -46,7 +46,7 @@
 
 
 // Steven's original
-var App = { 
+var App = {
   attachHandlers: function(){
     $('path').click(function(){
       var countryID = $(this).attr('title');
@@ -56,7 +56,7 @@ var App = {
         }
       });
     });
-  }, 
+  },
   data: '',
   fetch: function(){
     $.getJSON('/data.json', function(response){
