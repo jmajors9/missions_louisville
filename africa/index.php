@@ -95,5 +95,27 @@
 		</div>
 		<!-- End Jumbotron -->
 		
+		<div class="container">
+			<div class="panel panel-default">
+				<h3 class="panel-heading">Burkina Faso</h3>
+				<h4 class="panel-body">
+					<p class="event-headings">Church:</p>
+					<p>Shelby Park Presbyterian</p>
+					<p class="event-headings">Departure Date:</p>
+					<p>July 1, 2016</p>
+					<p class="event-headings">Return Date:</p>
+					<p>July 20, 2016</p>
+					<p class="event-headings">Description:</p>
+					<p>Each year we send a group to work a camp for orphaned children.</p>
+				</h4>
+			</div>	
+		</div>	
 	<!-- Footer -->
 <? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>
+
+
+
+
+
+
+

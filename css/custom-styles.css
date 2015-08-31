@@ -22,7 +22,10 @@ body {
 
 .footer-text {
 	font-size: 1.3em;
+}
 
+.event-headings {
+	font-style: bold;
 }
 
 /* Event Forms
