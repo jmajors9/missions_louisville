@@ -26,10 +26,10 @@ var App = {
 
 //show or hide event or missions on about page.
 function ReverseDisplay(d) {
-if (document.getElementById(d).style.display == "none") {
-    document.getElementById(d).style.display = "block";
+if (document.getElementById(d).style.display == "block") {
+    document.getElementById(d).style.display = "none";
   }
 else {
-  document.getElementById(d).style.display = "none";
+  document.getElementById(d).style.display = "block";
   }
 }
