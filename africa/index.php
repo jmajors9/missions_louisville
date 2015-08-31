@@ -99,10 +99,18 @@
 			<div class="panel panel-default">
 				<h3 class="panel-heading">Burkina Faso</h3>
 				<h4 class="panel-body">
-					<p>Church:<small> Shelby Park Presbyterian</small></p>
-					<p>Departure Date:<small> July 1, 2016</small></p>
-					<p>Return Date:<small> July 20, 2016</small></p>
-					<p>Description:<small> Each year we send a group to work a camp for orphaned children.</small></p>
+					<p>Church: <small>Shelby Park Presbyterian</small></p>
+					<p>Departure Date: <small>July 1, 2016</small></p>
+					<p>Return Date: <small>July 20, 2016</small></p>
+					<p>Description: <small>Each year we send a group to work a camp for orphaned children.</small></p>
+				</h4>
+				<h3 class="panel-heading">Morocco</h3>
+				<h4 class="panel-body">
+					<p>Name: <small>Isaac Cooke</small></p>
+					<p>Church: <small>Shelby Park Presbyterian</small></p>
+					<p>Departure Date: <small>December 2015</small></p>
+					<p>Return Date: <small>December 2019</small></p>
+					<p>Description: <small>Many Moroccans leave their home country to work in France. In Casablanca, Isaac will be serving at a local elementary school teaching French.</small></p>
 				</h4>
 			</div>	
 		</div>	
