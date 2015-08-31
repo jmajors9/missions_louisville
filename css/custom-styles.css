@@ -1,3 +1,5 @@
+/* Typography
+========================= */
 h1 {
 	font-family: 'News Cycle', sans-serif;
 	font-weight: bold;
@@ -9,11 +11,6 @@ a {
 	text-decoration: none;
 }
 
-
-
-
-/* Typography
-========================= */
 body {
 	margin-bottom: 60px;
 }
@@ -28,20 +25,11 @@ body {
 
 }
 
-
-/* Region Map
+/* Event Forms
 ========================= */
-
-/*temporary mapbox*/
-/*.africaMap {
-	border-style: solid;
-	border-width: 1px;
-}*/
-
-
-/* Jumbotron
-========================= */
-
+.event-form {
+	display: none;
+}
 
 /* Navbar
 ========================= */

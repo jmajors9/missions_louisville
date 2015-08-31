@@ -76,14 +76,12 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="panel panel-default">
-				<div id="eventFormShowHide" class="center-block">
-					<? include("/var/www/missionslouisville.org/public_html/include/addEvent.php") ?>
-				</div>
-		
-				<div id="missionaryFormShowHide" class="center-block">
-					<? include("/var/www/missionslouisville.org/public_html/include/addMissionary.php") ?>
-				</div>
+			<div id="eventFormShowHide" class="event-form center-block">
+				<? include("/var/www/missionslouisville.org/public_html/include/addEvent.php") ?>
+			</div>
+	
+			<div id="missionaryFormShowHide" class="event-form center-block">
+				<? include("/var/www/missionslouisville.org/public_html/include/addMissionary.php") ?>
 			</div>
 		</div>	
 	</div>
