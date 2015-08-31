@@ -79,7 +79,6 @@
 			<div id="eventFormShowHide" class="event-form center-block">
 				<? include("/var/www/missionslouisville.org/public_html/include/addEvent.php") ?>
 			</div>
-	
 			<div id="missionaryFormShowHide" class="event-form center-block">
 				<? include("/var/www/missionslouisville.org/public_html/include/addMissionary.php") ?>
 			</div>
