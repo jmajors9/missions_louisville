@@ -66,7 +66,7 @@
 			</h3>
 		</div>	
 	</div>
-	<div class="contatiner">
+	<div class="container">
 		<div class="row">
 			<div class="col-xs-6">
 				<a class="btn btn-default btn-block" href="javascript:ReverseDisplay('eventFormShowHide')">Event Form</a>
@@ -75,13 +75,17 @@
 				<a class="btn btn-default btn-block" href="javascript:ReverseDisplay('missionaryFormShowHide')">Missionary Form</a>
 			</div>
 		</div>
-		<div id="eventFormShowHide" class="center-block">
-			<? include("/var/www/missionslouisville.org/public_html/include/addEvent.php") ?>
-		</div>
-
-		<div id="missionaryFormShowHide" class="center-block">
-			<? include("/var/www/missionslouisville.org/public_html/include/addMissionary.php") ?>
-		</div>
+		<div class="container">
+			<div class="panel panel-default">
+				<div id="eventFormShowHide" class="center-block">
+					<? include("/var/www/missionslouisville.org/public_html/include/addEvent.php") ?>
+				</div>
+		
+				<div id="missionaryFormShowHide" class="center-block">
+					<? include("/var/www/missionslouisville.org/public_html/include/addMissionary.php") ?>
+				</div>
+			</div>
+		</div>	
 	</div>
 <!-- Footer -->
 <? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>
