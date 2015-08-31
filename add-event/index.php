@@ -75,11 +75,11 @@
 				<a class="btn btn-default btn-block" href="javascript:ReverseDisplay('missionaryFormShowHide')">Missionary Form</a>
 			</div>
 		</div>
-		<div class="eventFormShowHide">
+		<div id="eventFormShowHide" class="center-block">
 			<? include("/var/www/missionslouisville.org/public_html/include/addEvent.php") ?>
 		</div>
 
-		<div class="missionaryFormShowHide">
+		<div id="missionaryFormShowHide" class="center-block">
 			<? include("/var/www/missionslouisville.org/public_html/include/addMissionary.php") ?>
 		</div>
 	</div>
