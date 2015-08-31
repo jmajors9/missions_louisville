@@ -17,9 +17,18 @@ var App = {
       console.log(response);
     });
   },
+  reverseDisplay: function(d) {
+    if (document.getElementById(d).style.display == "none") {
+      document.getElementById(d).style.display = "block";
+    }
+    else {
+      document.getElementById(d).style.display = "none";
+    }
+  },
   start: function(){
     App.fetch();
     App.attachHandlers();
+    App.reverseDisplay();
   }
 };
 
