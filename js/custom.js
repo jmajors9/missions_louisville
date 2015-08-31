@@ -19,7 +19,6 @@ var App = {
   start: function(){
     App.fetch();
     App.attachHandlers();
-    App.reverseDisplay();
   }
 };
 
