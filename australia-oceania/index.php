@@ -4,6 +4,7 @@
 
 	include('/var/www/missionslouisville.org/public_html/include/header.php'); ?>
 
+<!-- Jumbotron -->
 	<div class="jumbotron">
 		<div class="container">
 			<div class="col-md-4 col-sm-6">
@@ -40,5 +41,32 @@
 			</div>			
 		</div>			
 	</div>
+<!-- End Jumbotron -->
+
+<!-- Content! -->
+	<div class="container">
+		<div class="panel panel-default">
+			<h3 class="panel-heading">Papua New Guinea</h3>
+			<h4 class="panel-body">
+				<p>Church: <small></small>Shelby Park Presbyterian</p>
+				<p>Departure Date: <small>December 30, 2015</small></p>
+				<p>Return Date: <small>January 15, 2016</small></p>
+				<p>Contact email: <small>cstephens@example.com</small></p>
+				<p>Description: <small>Due to the sensitive nature of the work, please contact the sending church for more information.</small></p>
+			</h4>
+			<h3 class="panel-heading">Fiji</h3>
+			<h4 class="panel-body">
+				<p>Name: <small>Eleazar Isaacs</small></p>
+				<p>email: <small>eIsaacs@example.com</small></p>
+				<p>website: <small>IsaacsInFiji.example.com</small></p>
+				<p>Church: <small>Portland Methodist Church</small></p>
+				<p>Departure Date: <small>June 2014</small></p>
+				<p>Return Date: <small>June 2018</small></p>
+				<p>Sending Organization: <small>Supernational Workers Board</small></p>
+				<p>Description: <small>Mr. Isaacs and his family moved to Fiji in 2014. While there they have been ministering to the local people and Dr. Isaacs has been priveleged to teach at a local Seminary.</small></p>
+			</h4>
+		</div>	
+	</div>	
+<!-- End Content -->
 <!-- Footer -->
 <? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>

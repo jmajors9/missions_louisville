@@ -72,6 +72,29 @@
 			</div>
 		</div>
 	</div>
-<!-- Footer -->
+<!-- End Jumbotron -->
+	<div class="container">
+		<div class="panel panel-default">
+			<h3 class="panel-heading">East Asia</h3>
+			<h4 class="panel-body">
+				<p>Church: <small>Primero Iglesia del Louisville</small></p>
+				<p>Departure Date: <small>June 6, 2016</small></p>
+				<p>Return Date: <small>August 15, 2016</small></p>
+				<p>Contact email: <small>jdiaz@example.org</small></p>
+				<p>Description: <small>Come join us as we teach English as a Second Language to the people of East Asia.</small></p>
+			</h4>
+			<h3 class="panel-heading">India</h3>
+			<h4 class="panel-body">
+				<p>Name: <small>Dr. Jennifer Lindsay</small></p>
+				<p>email: <small>jenlin@example.com</small></p>
+				<p>website: <small>jennifer.india.example.com</small></p>
+				<p>Church: <small></small></p>
+				<p>Departure Date: <small>June 15, 2016</small></p>
+				<p>Return Date: <small>August 15, 2018</small></p>
+				<p>Sending Organization: <small>Wordwide Doctors Consortium</small></p>
+				<p>Description: <small>Dr. Jennifer Lindsay is moving to India to work in a leper colony.</small></p>
+			</h4>
+		</div>	
+	</div>	
 	<!-- Footer -->
 <? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>
