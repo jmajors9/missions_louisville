@@ -50,5 +50,28 @@
 			</div>			
 		</div>			
 	</div>
+	<!-- Content! -->
+	<div class="container">
+		<div class="panel panel-default">
+			<h3 class="panel-heading">Nicaragua</h3>
+			<h4 class="panel-body">
+				<p>Church: <small>Lutheran Church of St. Matthews</small></p>
+				<p>Departure Date: <small>April 6, 2016</small></p>
+				<p>Return Date: <small>April 27, 2016</small></p>
+				<p>Contact email: <small>nchristian@example.com</small></p>
+				<p>Description: <small>Vamos a Nicaragua para construir los hospitales.</small></p>
+			</h4>
+			<h3 class="panel-heading">Guatemala</h3>
+			<h4 class="panel-body">
+				<p>Name: <small>Jedediah Wu</small></p>
+				<p>email: <small>jedi.wu@example.com</small></p>
+				<p>Church: <small>Lutheran Church of St. Matthews</small></p>
+				<p>Departure Date: <small>June 2016</small></p>
+				<p>Return Date: <small>June 2017</small></p>
+				<p>Sending Organization: <small>Board of North American Ministers</small></p>
+				<p>Description: <small>Jedediah has the unique opportunity of taking his farming knowhow to the people of Guatemala. Through the blessings of many sponsors, Jed will be able to help a few families start their own coffee farms.</small></p>
+			</h4>
+		</div>	
+	</div>	
 <!-- Footer -->
 <? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>

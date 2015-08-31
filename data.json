@@ -134,8 +134,8 @@
             "zip-code": "40214",
             "website": "jennifer.india.example.com",
             "date-start": "20160615",
-            "date-end": "20160815",
-            "annual": true,
+            "date-end": "20180815",
+            "annual": false,
             "description": "Dr. Jennifer Lindsay is moving to India to work in a leper colony.",
             "sender": 4,
             "churches": 2
@@ -152,7 +152,7 @@
             "zip-code": "40209",
             "website": "charity.peru.example.com",
             "date-start": "20160615",
-            "date-end": "20160815",
+            "date-end": "20170815",
             "description": "Charity is moving to Peru. Due to the sensitive nature of her work, we are unable to provide more information.",
             "sender": 2,
             "churches": 2            

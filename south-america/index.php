@@ -47,5 +47,29 @@
 			</div>			
 		</div>			
 	</div>
+<!-- Content! -->
+	<div class="container">
+		<div class="panel panel-default">
+			<h3 class="panel-heading">Paraguay</h3>
+			<h4 class="panel-body">
+				<p>Church: <small>Partland Methodist Church</small></p>
+				<p>Departure Date: <small>Devember 15, 2016</small></p>
+				<p>Return Date: <small>January 14, 2017</small></p>
+				<p>Website: <small>iglesias.paraguay.example.com</small></p>
+				<p>Description: <small>Vamos a Nicaragua para construir los hospitales.</small></p>
+			</h4>
+			<h3 class="panel-heading">Peru</h3>
+			<h4 class="panel-body">
+				<p>Name: <small>Charity Blackwell</small></p>
+				<p>email: <small>cblackwell@example.com</small></p>
+				<p>Website: <small>charity.peru.example.com</small></p>
+				<p>Church: <small>View of the Valley Baptist Church</small></p>
+				<p>Departure Date: <small>June 15, 2016</small></p>
+				<p>Return Date: <small>August 15, 2017</small></p>
+				<p>Sending Organization: <small>Board of Nort American Ministers</small></p>
+				<p>Description: <small>Charity is moving to Peru. Due to the sensitive nature of her work, we are unable to provide more information.</small></p>
+			</h4>
+		</div>	
+	</div>	
 <!-- Footer -->
 <? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>

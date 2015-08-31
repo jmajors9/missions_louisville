@@ -88,7 +88,7 @@
 				<p>Name: <small>Dr. Jennifer Lindsay</small></p>
 				<p>email: <small>jenlin@example.com</small></p>
 				<p>website: <small>jennifer.india.example.com</small></p>
-				<p>Church: <small></small></p>
+				<p>Church: <small>View of the Valley Baptist Church</small></p>
 				<p>Departure Date: <small>June 15, 2016</small></p>
 				<p>Return Date: <small>August 15, 2018</small></p>
 				<p>Sending Organization: <small>Wordwide Doctors Consortium</small></p>

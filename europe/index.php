@@ -78,5 +78,27 @@
 			</div>			
 		</div>			
 	</div>
+<!-- Content! -->
+	<div class="container">
+		<div class="panel panel-default">
+			<h3 class="panel-heading">Albania</h3>
+			<h4 class="panel-body">
+				<p>Church: <small></small>Primero Iglesia del Louisville</p>
+				<p>Departure Date: <small>June 15, 2015</small></p>
+				<p>Return Date: <small>August 15, 2015</small></p>
+				<p>Contact email: <small>jdiaz@example.com</small></p>
+				<p>Description: <small>Come join us as we engage the people of Albania.</small></p>
+			</h4>
+			<h3 class="panel-heading">Ukraine</h3>
+			<h4 class="panel-body">
+				<p>Church: <small></small>Portland Methodist Church</p>
+				<p>Departure Date: <small>June 4, 2016</small></p>
+				<p>Return Date: <small>June 19, 2016</small></p>
+				<p>Contact email: <small>pjones@example.com</small></p>
+				<p>Description: <small>We will be visiting churches all over the Ukraine to encourage our brothers and sisters. We are also blessed to deliver many gifts on our journey.</small></p>
+			</h4>
+		</div>	
+	</div>	
+	<!-- End Content -->
 <!-- Footer -->
 <? include("/var/www/missionslouisville.org/public_html/include/footer.php"); ?>
