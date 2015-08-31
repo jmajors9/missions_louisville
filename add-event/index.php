@@ -69,10 +69,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-6">
-				<a class="btn btn-default btn-block" href="javascript:ReverseDisplay('eventFormShowHide')">Event Form</a>
+				<a class="btn btn-default btn-block event-button" href="javascript:ReverseDisplay('eventFormShowHide')">Event Form</a>
 			</div>
 			<div class="col-xs-6">
-				<a class="btn btn-default btn-block" href="javascript:ReverseDisplay('missionaryFormShowHide')">Missionary Form</a>
+				<a class="btn btn-default btn-block event-button" href="javascript:ReverseDisplay('missionaryFormShowHide')">Missionary Form</a>
 			</div>
 		</div>
 		<div class="container">

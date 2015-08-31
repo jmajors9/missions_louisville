@@ -29,7 +29,10 @@ body {
 ========================= */
 .event-form {
 	display: none;
-	font-size: 1.5em;
+}
+.event-button {
+	padding-bottom: 15px;
+	font-size: 1.7em;
 }
 
 /* Navbar
