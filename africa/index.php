@@ -99,14 +99,10 @@
 			<div class="panel panel-default">
 				<h3 class="panel-heading">Burkina Faso</h3>
 				<h4 class="panel-body">
-					<p class="event-headings">Church:</p>
-					<p>Shelby Park Presbyterian</p>
-					<p class="event-headings">Departure Date:</p>
-					<p>July 1, 2016</p>
-					<p class="event-headings">Return Date:</p>
-					<p>July 20, 2016</p>
-					<p class="event-headings">Description:</p>
-					<p>Each year we send a group to work a camp for orphaned children.</p>
+					<small>Church:</small> Shelby Park Presbyterian
+					<small>Departure Date:</small> July 1, 2016
+					<small>Return Date:</small> July 20, 2016
+					<small>Description:</small> Each year we send a group to work a camp for orphaned children.
 				</h4>
 			</div>	
 		</div>	
