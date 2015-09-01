@@ -6,7 +6,7 @@
 					</div>
 					<div class="col-sm-4 center-footer hidden-xs hidden-xxs">
 						<!-- <img class="footer-fleur-top center-block" src="/img/Fleur-de-lis-fill.svg"> -->
-						<? include("/var/www/missionslouisville.org/public_html/include/Fluer-de-lis-fill.php"); ?>
+						<? include("/var/www/missionslouisville.org/public_html/include/Fleur-de-lis-fill.php"); ?>
 					</div>
 					<div class="right-footer col-xs-6 col-sm-4">
 						<p class="text-center footer-text">Do you have an Event or Person to add?</p>
@@ -17,7 +17,7 @@
 		</footer>
 		<footer class="footer footer-bottom panel-footer">      
       		<div class="visible-xs visible-xxs">
-				<? include("/var/www/missionslouisville.org/public_html/include/Fluer-de-lis-fill.php"); ?>
+				<? include("/var/www/missionslouisville.org/public_html/include/Fleur-de-lis-fill.php"); ?>
 			</div>
 	      	<div class="text-center">
 	      		<p>Copyright &copy; 2015 - TheVille || A MajorStudios Website</p>
