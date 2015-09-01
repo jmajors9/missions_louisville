@@ -17,7 +17,9 @@
 		</footer>
 		<footer class="footer footer-bottom panel-footer">      
       		<div class="visible-xs visible-xxs">
-				<? include("/var/www/missionslouisville.org/public_html/include/Fleur-de-lis-fill.php"); ?>
+      			<div class="footer-fleur-bottom center-block">
+					<? include("/var/www/missionslouisville.org/public_html/include/Fleur-de-lis-fill.php"); ?>
+				</div>
 			</div>
 	      	<div class="text-center">
 	      		<p>Copyright &copy; 2015 - TheVille || A MajorStudios Website</p>
