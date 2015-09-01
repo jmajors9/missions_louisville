@@ -68,6 +68,13 @@ body {
 	max-width: 6em;
 	padding: 1em 0;
 }
+.fillFDL {
+	fill: #CCCCCC;
+	fill-opacity: 0.3;
+	stroke: #CCCCCC;
+	stroke-opacity: 0.9;
+	stroke-width: 3;
+}
 .footer-top {
 	position: relative;
 	padding-top: 60px;
