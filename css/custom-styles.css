@@ -51,13 +51,6 @@ body {
 		padding-top: 1em;
 	}
 }
-
-/*.footer-container {
-	padding-top: 40px;
-	padding-bottom: 15px;
-	height: auto;
-}
-*/
 .center-footer {
 	padding-left: 0;
 	padding-right: 0;
@@ -76,9 +69,9 @@ body {
 	stroke-width: 3;
 }
 .footer-fleur-top {
-	fill: #555555;
-	fill-opacity: 0.3;
-	stroke: #CCCCCC;
+	fill: #CCCCCC;
+	fill-opacity: 0.4;
+	stroke: #555555;
 	stroke-opacity: 0.9;
 	stroke-width: 3;
 }
