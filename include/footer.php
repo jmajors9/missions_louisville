@@ -1,5 +1,5 @@
 		<footer class="footer-top">
-			<div class="container">
+			<div class="footer-container">
 				<div class="row">
 					<div class="left-footer col-xs-6 col-sm-4 ">
 						<p class="text-center footer-text">Thank you for visiting our site. Please pray for our brothers and sisters working abroad.</p>

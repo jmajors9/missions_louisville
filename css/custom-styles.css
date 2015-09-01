@@ -61,7 +61,6 @@ body {
 	padding-bottom: 15px;
 	height: auto;
 }
-
 .footer-fleur-top,
 .footer-fleur-bottom {
 	margin: auto;
@@ -81,7 +80,7 @@ body {
 	stroke: #CCCCCC;
 	stroke-opacity: 0.9;
 	stroke-width: 3;
-}*/
+}
 .footer-top {
 	position: relative;
 	padding-top: 60px;
