@@ -5,7 +5,7 @@
 						<p class="text-center footer-text">Thank you for visiting our site. Please pray for our brothers and sisters working abroad.</p>
 					</div>
 					<div class="col-sm-4 center-footer hidden-xs hidden-xxs">
-						<div class="footer-fleur-top center-block fillFDL"> 
+						<div class="footer-fleur-top center-block"> 
 							<? include("/var/www/missionslouisville.org/public_html/include/Fleur-de-lis-fill.php"); ?>
 						</div>
 					</div>
@@ -18,7 +18,7 @@
 		</footer>
 		<footer class="footer footer-bottom panel-footer">      
       		<div class="visible-xs visible-xxs">
-      			<div class="footer-fleur-bottom center-block fillFDL">
+      			<div class="footer-fleur-bottom center-block">
 					<? include("/var/www/missionslouisville.org/public_html/include/Fleur-de-lis-fill.php"); ?>
 				</div>
 			</div>
