@@ -6,9 +6,9 @@
 							.fillFDL
 							{
 								fill: #CCCCCC;
-								fill-opacity: 0.3;
-								stroke: #CCCCCC;
-								stroke-opacity: 0.9;
+								fill-opacity: 0.6;
+								stroke: #AAAAAA;
+								stroke-opacity: 1;
 								stroke-width: 3;
 							}
 						</style>						
