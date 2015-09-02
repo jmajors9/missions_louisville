@@ -23,7 +23,7 @@
 				</div>
 			</div>
 	      	<div class="text-center">
-	      		<p>Copyright &copy; 2015 - TheVille || A MajorStudios Website</p>
+	      		<p>Copyright &copy; 2015 - TheVille || A <a label="email" href="mailto:help@missionsLouisville.org?subject=misisonsLouisville.org">MajorStudios</a> Website</p>
 	      	</div>      			
 		</footer>
 		<script src="http://code.jquery.com/jquery.js"></script>
