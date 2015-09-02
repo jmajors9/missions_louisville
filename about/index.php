@@ -19,9 +19,15 @@
 			<h4 class="panel-body">
 				<p>For now all information contained herein is fictional. No real names were used for persons or organizations. Any similarity to real persons or entities is entirely unintentional.</p>
 				<p>Our hope is that this site could become a real and useable resource for brothers and sisters around Louisville in the near future.</p>
+			</h4>
+			<h3 class="panel-heading">Need a new website?</h3>
+			<h4 class="panel-body">
+				<p>I am available for contract work. Please <a label="email" href="mailto:help@missionsLouisville.org?subject=missionsLouisville.org">email me</a> and we can plan your new site together.</p>
+			</h4>
+			<h3 class="panel-heading">
 				<p>Blessings!</p>
 				<p>Joel A. Majors</p>
-			</h4>
+			</h3>
 		</div>	
 	</div>
 <!-- Footer -->
