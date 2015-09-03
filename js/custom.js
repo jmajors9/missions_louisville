@@ -5,7 +5,7 @@ var App = {
       var countryID = $(this).attr('title');
       $.each(App.data.events, function(i, event){
         if(event.country == countryID){
-          console.log(event);
+          console.log("all is well");
         }
       });
     });
