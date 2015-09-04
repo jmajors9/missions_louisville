@@ -4,7 +4,7 @@ var App = {
     $('path').click(function(){
       var countryID = $(this).attr('title');
       $.each(App.data.events, function(i, event){
-        if(event.country == countryID){
+        if(events.country == countryID){
           console.log(event);
         }
       });
@@ -14,7 +14,7 @@ var App = {
   fetch: function(){
     $.getJSON('/data.json', function(response){
       App.data = response;
-      console.log(response);
+      console.log("data received");
     });
   },
   start: function(){
