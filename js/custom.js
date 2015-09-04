@@ -1,7 +1,7 @@
 // Steven's original
 var App = {
   attachHandlers: function(){
-    $.each('path', function(){
+    $('path').click(function(){
       var countryID = $(this).attr('title');
       $.each(App.data.events, function(i, event){
         if(event.country == countryID){
