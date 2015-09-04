@@ -4,7 +4,7 @@ var App = {
     $('path').click(function(){
       var countryID = $(this).attr('title');
       $.each(App.data.events, function(i, event){
-        if(events.country == countryID){
+        if(event.country == countryID){
           console.log(event);
         }
       });
