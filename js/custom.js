@@ -14,7 +14,7 @@ var App = {
   fetch: function(){
     $.getJSON('/data.json', function(response){
       App.data = response;
-      console.log("data received");
+      console.log(response);
     });
   },
   start: function(){
