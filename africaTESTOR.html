@@ -79,9 +79,17 @@
 
 		<div ng-controller="RegionEvents as region">
 			<div class="container">
-				<div class="panel panel-default">
+				<div class="panel panel-default" >
 					<h3 class="panel-heading">{{region.event.country}}</h3>
-					<h4 class="panel-body">
+					<ul class="nav nav-pills" ng-controller="PanelController as panel">
+						<li class="panel" ng-class="{ active: panel.isSelected(1) }">  
+							<a href ng-click="panel.selectTab(1)">Description</a> </li>
+						<li class="panel" ng-class="{ active: panel.isSelected(2) }">  
+							<a href ng-click="panel.selectTab(2)">Church</a> </li>
+						<li class="panel" ng-class="{ active: panel.isSelected(3) }">  
+							<a href ng-click="panel.selectTab(3)">Sending Organization</a> </li>
+					</ul>
+					<h4 class="panel-body" ng-show="panel.isSelected(1)">
 						<p>Church: <small>{{region.event.churches}}</small></p>
 						<p>Departure Date: <small>{{region.event.start}}</small></p>
 						<p>Return Date: <small>{{region.event.end}}</small></p>
