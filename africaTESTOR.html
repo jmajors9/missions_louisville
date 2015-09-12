@@ -27,8 +27,9 @@
 			<div class="container">			
 				<div class="row">
 					<div class="col-md-4">	
-						<reaching-world></reaching-world>
-						<div many-churches></div>
+						<h1>Reaching the World</h1>
+						<p>There are so many churches in the Derby City that send believers abroad. Click on a continent to find out what's happening there.</p>
+						<p><a href="/about">Read more about us</a></p>
 					</div> 
 					<div class="col-md-8 mainMapSVG img-responsive">
 						<!-- (c) ammap.com | SVG map of Continents - Low -->
@@ -83,12 +84,12 @@
 					<div class="panel panel-default" ng-cloak>
 						<h3 class="panel-heading">{{region.event.country}}</h3>
 						<ul class="nav nav-pills" >
-							<li class="panel" ng-class="{ active: panel.isSelected(1) }">  
-								<a href ng-click="panel.selectTab(1)">Information</a> </li>
-							<li class="panel" ng-class="{ active: panel.isSelected(2) }">  
-								<a href ng-click="panel.selectTab(2)">Church</a> </li>
-							<li class="panel" ng-class="{ active: panel.isSelected(3) }">  
-								<a href ng-click="panel.selectTab(3)">Sending Organization</a> </li>
+							<li class="panel" ng-class="{active:panel.isSelected(1)}">
+								<a href ng-click="panel.selectTab(1)">Information</a></li>
+							<li class="panel" ng-class="{active:panel.isSelected(2)}">
+								<a href ng-click="panel.selectTab(2)">Church</a></li>
+							<li class="panel" ng-class="{active:panel.isSelected(3)}">
+								<a href ng-click="panel.selectTab(3)">Sending Organization</a></li>
 						</ul>
 						<div class="panel-body" ng-show="panel.isSelected(1)">
 							<h4>Name: <small>{{region.event.name}}</small></h4>
