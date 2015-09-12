@@ -56,7 +56,7 @@
             "churches": 1
         };
 
-    var church = [
+    var church =
             {
                 "id": 1,
                 "name": "Primero Iglesia del Louisville",
@@ -67,19 +67,8 @@
                 "state": "Kentucky",
                 "zipcode": 40214,
                 "website": "primeroiglesia.example.org"
-            },
-            {
-                "id": 2,
-                "name": "View of the Valley Baptist Church",
-                "minister": "Jamal Warner",
-                "email": "jamal@example.com",
-                "address": "123 Other Avenue",
-                "city": "New Albany",
-                "state": "Indiana",
-                "zipcode": 40202,
-                "website": "vvbc.example.org"
-            }
-        ];
+            };
+        
 
 
     var sendingOrg = {
