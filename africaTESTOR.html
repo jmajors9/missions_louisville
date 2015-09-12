@@ -101,26 +101,27 @@
 							<h4>Church: <small>{{church.event.name}}</small></h4>
 							<h4>Contact email: <small>{{church.event.email}}</small></h4>						
 							<h4>Address:<small> {{church.event.address}}, {{church.event.city}}, {{church.event.state}}, {{church.event.zipcode}}</small></h4>
-							<h4>website: <small>{{church.event.website}}</small></h4>
+							<h4>website: <small><a href="http://{{church.event.website}}">{{church.event.website}}</a></small></h4>
 						</div>
 						<div class="panel-body" ng-controller="SendingOrganization as sender" ng-show="panel.isSelected(3)">
 							<h4>Sending Organization: <small>{{sender.event.name}}</small></h4>
 							<h4>email <small>{{sender.event.email}}</small></h4>
-							<h4>Website: <small>{{sender.event.website}}</small></h4>
+							<h4>website: <small><a href="http://{{sender.event.website}}">{{sender.event.website}}</a></small></h4>
 						</div>
 						<h3 class="panel-heading">Ukraine</h3>
-						<h4 class="panel-body">
-							<p>Church: <small>Portland Methodist Church</small></p>
-							<p>Departure Date: <small>June 4, 2016</small></p>
-							<p>Return Date: <small>June 19, 2016</small></p>
-							<p>Contact email: <small>pjones@example.com</small></p>
-							<p>Description: <small>We will be visiting churches all over the Ukraine to encourage our brothers and sisters. We are also blessed to deliver many gifts on our journey.</small></p>
-						</h4>
+						<div class="panel-body">
+							<h4>Church: <small>h4ortland Methodist Church</small></h4>
+							<h4>Deh4arture Date: <small>June 4, 2016</small></h4>
+							<h4>Return Date: <small>June 19, 2016</small></h4>
+							<h4>Contact email: <small>h4jones@examh4le.com</small></h4>
+							<h4>Descrih4tion: <small>We will be visiting churches all over the Ukraine to encourage our brothers and sisters. We are also blessed to deliver many gifts on our journey.</small></h4>
+						</div>
 					</div>	
 				</section>
 			</div>	
 		</div>
 			
+<!-- ending AngularJS -->
 			
 			<footer class="footer-top">
 			<div class="container">
