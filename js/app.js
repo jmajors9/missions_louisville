@@ -11,17 +11,21 @@
         };
     });
 
-    app.controller('RegionEvents', function () {
-        this.event = events;
+    app.controller('MissionsEvents', function () {
+        this.event = missions;
     });
 
-    app.controller('ChurchEvents', function () {
-        this.event = church;
-    });
+    // app.controller('RegionEvents', function () {
+    //     this.event = events;
+    // });
 
-    app.controller('SendingOrganization', function () {
-        this.event = sendingOrg;
-    });
+    // app.controller('ChurchEvents', function () {
+    //     this.event = church;
+    // });
+
+    // app.controller('SendingOrganization', function () {
+    //     this.event = sendingOrg;
+    // });
 
     app.controller('AllEvents', function ($scope, $http) {
         $http.get('data.json').
@@ -37,7 +41,9 @@
     // don't have to get the "id" for the churches, just use it for the json reference.
     // so each thing will go "data.foo.event.longterm"...?
 
-    var events = {
+    var missions = {
+        "region":
+        {
             "id": 1,
             "longterm": false,
             "name": "engage",
@@ -54,24 +60,21 @@
             "description": "Come join us as we engage the people of Albania.",
             "sender": 1,
             "churches": 1
-        };
-
-    var church =
-            {
-                "id": 1,
-                "name": "Primero Iglesia del Louisville",
-                "minister": "Julio Diaz",
-                "email": "jdiaz@example.org",
-                "address": "123 Any Street",
-                "city": "Louisville",
-                "state": "Kentucky",
-                "zipcode": 40214,
-                "website": "primeroiglesia.example.org"
-            };
-        
-
-
-    var sendingOrg = {
+        },
+        "church":
+        {
+            "id": 1,
+            "name": "Primero Iglesia del Louisville",
+            "minister": "Julio Diaz",
+            "email": "jdiaz@example.org",
+            "address": "123 Any Street",
+            "city": "Louisville",
+            "state": "Kentucky",
+            "zipcode": 40214,
+            "website": "primeroiglesia.example.org"
+        },
+        "sendingOrg":
+        {
             "id": 1,
             "name": "SuperNational Workers Board",
             "email": "director@example.com",
@@ -80,7 +83,8 @@
             "state": "",
             "zipcode": 0,
             "website": "snwb.example.com"
-        };
+        }
+    };
 
     app.directive("reachingWorld", function(){
         return {
