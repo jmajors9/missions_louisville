@@ -318,9 +318,9 @@
             "name": "SuperNational Workers Board",
             "email": "director@example.com",
             "address": "1 This Place",
-            "city": "",
-            "state": "",
-            "zipcode": 0,
+            "city": "Statesville",
+            "state": "State",
+            "zipcode": "00000",
             "website": "snwb.example.com"
         },
         {
@@ -330,7 +330,7 @@
             "address": "",
             "city": "",
             "state": "",
-            "zipcode": 0,
+            "zipcode": "00000",
             "website": "bnam.example.com"
         },
         {
@@ -340,7 +340,7 @@
             "address": "",
             "city": "",
             "state": "",
-            "zipcode": "",
+            "zipcode": "00000",
             "website": "TEFL.international.example.com"
         },
         {
@@ -350,7 +350,7 @@
             "address": "",
             "city": "",
             "state": "",
-            "zipcode": "",
+            "zipcode": "00000",
             "website": "wwdrc.example.com"
         },
         {
@@ -360,7 +360,7 @@
             "address": "",
             "city": "",
             "state": "",
-            "zipcode": "",
+            "zipcode": "00000",
             "website": "buildha.example.com"
         }
     ]
