@@ -25,4 +25,4 @@ var App = {
         App.fetch();
         App.attachHandlers();
     }
-}
+};

@@ -24,7 +24,7 @@
     });
 
     app.factory('mainInfo', function($http) {
-        $http.get('data.json');
+        $http.getJSON('/data.json');
         console.log(mainInfo);
     });
 
