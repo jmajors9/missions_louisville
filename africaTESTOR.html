@@ -77,14 +77,14 @@
 
 <!-- testing AngularJS insertion-->
 
-		<div class="ng-cloak" ng-controller="RegionEvents as region" >
+		<div ng-cloak ng-controller="RegionEvents as region" >
 			<div class="container">
 				<section ng-controller="PanelController as panel">
 					<div class="panel panel-default">
 						<h3 class="panel-heading">{{region.event.country}}</h3>
 						<ul class="nav nav-pills" >
 							<li class="panel" ng-class="{ active: panel.isSelected(1) }">  
-								<a href ng-click="panel.selectTab(1)">Description</a> </li>
+								<a href ng-click="panel.selectTab(1)">Information</a> </li>
 							<li class="panel" ng-class="{ active: panel.isSelected(2) }">  
 								<a href ng-click="panel.selectTab(2)">Church</a> </li>
 							<li class="panel" ng-class="{ active: panel.isSelected(3) }">  
