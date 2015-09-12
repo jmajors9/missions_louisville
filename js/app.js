@@ -23,6 +23,12 @@
         this.event = sendingOrg;
     });
 
+    app.factory('mainInfo', function($http) {
+        $http.get('data.json');
+        console.log(mainInfo);
+    });
+
+
 
     var events = {
             id: 1,
