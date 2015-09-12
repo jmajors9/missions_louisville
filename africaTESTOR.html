@@ -77,34 +77,47 @@
 
 <!-- testing AngularJS insertion-->
 
-		<div ng-controller="RegionEvents as region">
+		<div ng-controller="RegionEvents as region" >
 			<div class="container">
-				<div class="panel panel-default" >
-					<h3 class="panel-heading">{{region.event.country}}</h3>
-					<ul class="nav nav-pills" ng-controller="PanelController as panel">
-						<li class="panel" ng-class="{ active: panel.isSelected(1) }">  
-							<a href ng-click="panel.selectTab(1)">Description</a> </li>
-						<li class="panel" ng-class="{ active: panel.isSelected(2) }">  
-							<a href ng-click="panel.selectTab(2)">Church</a> </li>
-						<li class="panel" ng-class="{ active: panel.isSelected(3) }">  
-							<a href ng-click="panel.selectTab(3)">Sending Organization</a> </li>
-					</ul>
-					<h4 class="panel-body" ng-show="panel.isSelected(1)">
-						<p>Church: <small>{{region.event.churches}}</small></p>
-						<p>Departure Date: <small>{{region.event.start}}</small></p>
-						<p>Return Date: <small>{{region.event.end}}</small></p>
-						<p>Contact email: <small>jdiaz@example.com</small></p>
-						<p>Description: <small>{{region.event.description}}</small></p>
-					</h4>
-					<h3 class="panel-heading">Ukraine</h3>
-					<h4 class="panel-body">
-						<p>Church: <small>Portland Methodist Church</small></p>
-						<p>Departure Date: <small>June 4, 2016</small></p>
-						<p>Return Date: <small>June 19, 2016</small></p>
-						<p>Contact email: <small>pjones@example.com</small></p>
-						<p>Description: <small>We will be visiting churches all over the Ukraine to encourage our brothers and sisters. We are also blessed to deliver many gifts on our journey.</small></p>
-					</h4>
-				</div>	
+				<section ng-controller="PanelController as panel">
+					<div class="panel panel-default">
+						<h3 class="panel-heading">{{region.event.country}}</h3>
+						<ul class="nav nav-pills" >
+							<li class="panel" ng-class="{ active: panel.isSelected(1) }">  
+								<a href ng-click="panel.selectTab(1)">Description</a> </li>
+							<li class="panel" ng-class="{ active: panel.isSelected(2) }">  
+								<a href ng-click="panel.selectTab(2)">Church</a> </li>
+							<li class="panel" ng-class="{ active: panel.isSelected(3) }">  
+								<a href ng-click="panel.selectTab(3)">Sending Organization</a> </li>
+						</ul>
+						<div class="panel-body" ng-show="panel.isSelected(1)">
+							<h4>Name: <small>{{region.event.name}}</small></h4>
+							<h4>Departure Date: <small>{{region.event.start}}</small></h4>
+							<h4>Return Date: <small>{{region.event.end}}</small></h4>
+							<h4>Description: <small>{{region.event.description}}</small></h4>
+							<h4>Annual Event: <small>{{region.event.annual}}</small></h4>
+						</div>
+						<div class="panel-body" ng-controller="ChurchEvents as church" ng-show="panel.isSelected(2)">
+							<h4>Church: <small>{{church.event.name}}</small></h4>
+							<h4>Contact email: <small>{{church.event.email}}</small></h4>						
+							<h4>Address:<small> {{church.event.address}}, {{church.event.city}}, {{church.event.state}}, {{church.event.zipcode}}</small></h4>
+							<h4>website: <small>{{church.event.website}}</small></h4>
+						</div>
+						<h4 class="panel-body" ng-controller="SendingOrganization as sender" ng-show="panel.isSelected(3)">
+							<p>Sending Organization: <small>{{sender.event.name}}</small></p>
+							<p>email <small>{{sender.event.email}}</small></p>
+							<p>Website: <small>{{sender.event.website}}</small></p>
+						</h4>
+						<h3 class="panel-heading">Ukraine</h3>
+						<h4 class="panel-body">
+							<p>Church: <small>Portland Methodist Church</small></p>
+							<p>Departure Date: <small>June 4, 2016</small></p>
+							<p>Return Date: <small>June 19, 2016</small></p>
+							<p>Contact email: <small>pjones@example.com</small></p>
+							<p>Description: <small>We will be visiting churches all over the Ukraine to encourage our brothers and sisters. We are also blessed to deliver many gifts on our journey.</small></p>
+						</h4>
+					</div>	
+				</section>
 			</div>	
 		</div>
 			

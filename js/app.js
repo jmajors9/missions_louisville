@@ -15,12 +15,12 @@
         };
     });
 
-    app.controller('churchEvents', function () {
-        this.church = churches;
+    app.controller('ChurchEvents', function () {
+        this.event = church;
     });
 
-    app.controller('sendingOrganization', function () {
-        this.sender = sendingOrg;
+    app.controller('SendingOrganization', function () {
+        this.event = sendingOrg;
     });
 
 
@@ -43,7 +43,7 @@
             churches: 1
         };
 
-    var churches = {
+    var church = {
             id: 1,
             name: "Primero Iglesia del Louisville",
             minister: "Julio Diaz",
@@ -78,3 +78,5 @@
         };
     });
 })();
+
+
