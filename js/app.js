@@ -15,18 +15,6 @@
         this.event = missions;
     });
 
-    // app.controller('RegionEvents', function () {
-    //     this.event = events;
-    // });
-
-    // app.controller('ChurchEvents', function () {
-    //     this.event = church;
-    // });
-
-    // app.controller('SendingOrganization', function () {
-    //     this.event = sendingOrg;
-    // });
-
     app.controller('AllEvents', function ($scope, $http) {
         $http.get('data.json').
         then(function(data){
@@ -42,7 +30,7 @@
     // so each thing will go "data.foo.event.longterm"...?
 
     var missions = {
-        "region":
+        "journeys":
         {
             "id": 1,
             "longterm": false,

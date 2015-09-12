@@ -82,7 +82,7 @@
 			<div class="container">
 				<section ng-controller="PanelController as panel">
 					<div class="panel panel-default">
-						<h2 class="panel-heading" ng-cloak>{{missions.event.region.country}}</h2>
+						<h2 class="panel-heading" ng-cloak>{{missions.event.journeys.country}}</h2>
 						<ul ng-cloak class="nav nav-pills" >
 							<li class="panel" ng-class="{active:panel.isSelected(1)}">
 								<a href ng-click="panel.selectTab(1)">Information</a></li>
@@ -92,11 +92,11 @@
 								<a href ng-click="panel.selectTab(3)">Sending Organization</a></li>
 						</ul>
 						<div ng-cloak class="panel-body" ng-show="panel.isSelected(1)">
-							<h4>Name:<small> {{missions.event.region.name}}</small></h4>
-							<h4>Departure Date:<small> {{missions.event.region.start}}</small></h4>
-							<h4>Return Date:<small> {{missions.event.region.end}}</small></h4>
-							<h4>Description:<small> {{missions.event.region.description}}</small></h4>
-							<h4>Annual Event:<small> {{missions.event.region.annual}}</small></h4>
+							<h4>Name:<small> {{missions.event.journeys.name}}</small></h4>
+							<h4>Departure Date:<small> {{missions.event.journeys.start}}</small></h4>
+							<h4>Return Date:<small> {{missions.event.journeys.end}}</small></h4>
+							<h4>Description:<small> {{missions.event.journeys.description}}</small></h4>
+							<h4>Annual Event:<small> {{missions.event.journeys.annual}}</small></h4>
 						</div>
 						<div ng-cloak class="panel-body" ng-show="panel.isSelected(2)">
 							<h4>Church:<small> {{missions.event.church.name}}</small></h4>

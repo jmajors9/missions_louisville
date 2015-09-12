@@ -67,7 +67,7 @@
             "website": "spark.presby.example.com"
         }
     ],
-    "events": [
+    "journeys": [
         {
             "id": "",
             "long-term": "",
