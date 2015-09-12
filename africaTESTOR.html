@@ -81,9 +81,9 @@
 		<div ng-controller="RegionEvents as region">
 			<div class="container">
 				<section ng-controller="PanelController as panel">
-					<div class="panel panel-default" ng-cloak>
-						<h3 class="panel-heading">{{region.event.country}}</h3>
-						<ul class="nav nav-pills" >
+					<div class="panel panel-default">
+						<h3 class="panel-heading" ng-cloak>{{region.event.country}}</h3>
+						<ul ng-cloak class="nav nav-pills" >
 							<li class="panel" ng-class="{active:panel.isSelected(1)}">
 								<a href ng-click="panel.selectTab(1)">Information</a></li>
 							<li class="panel" ng-class="{active:panel.isSelected(2)}">
@@ -91,20 +91,20 @@
 							<li class="panel" ng-class="{active:panel.isSelected(3)}">
 								<a href ng-click="panel.selectTab(3)">Sending Organization</a></li>
 						</ul>
-						<div class="panel-body" ng-show="panel.isSelected(1)">
+						<div ng-cloak class="panel-body" ng-show="panel.isSelected(1)">
 							<h4>Name: <small>{{region.event.name}}</small></h4>
 							<h4>Departure Date: <small>{{region.event.start}}</small></h4>
 							<h4>Return Date: <small>{{region.event.end}}</small></h4>
 							<h4>Description: <small>{{region.event.description}}</small></h4>
 							<h4>Annual Event: <small>{{region.event.annual}}</small></h4>
 						</div>
-						<div class="panel-body" ng-controller="ChurchEvents as church" ng-show="panel.isSelected(2)">
+						<div ng-cloak class="panel-body" ng-controller="ChurchEvents as church" ng-show="panel.isSelected(2)">
 							<h4>Church: <small>{{church.event.name}}</small></h4>
 							<h4>Contact email: <small>{{church.event.email}}</small></h4>						
 							<h4>Address:<small> {{church.event.address}}, {{church.event.city}}, {{church.event.state}}, {{church.event.zipcode}}</small></h4>
 							<h4>website: <small><a href="http://{{church.event.website}}">{{church.event.website}}</a></small></h4>
 						</div>
-						<div class="panel-body" ng-controller="SendingOrganization as sender" ng-show="panel.isSelected(3)">
+						<div ng-cloak class="panel-body" ng-controller="SendingOrganization as sender" ng-show="panel.isSelected(3)">
 							<h4>Sending Organization: <small>{{sender.event.name}}</small></h4>
 							<h4>email <small>{{sender.event.email}}</small></h4>
 							<h4>website: <small><a href="http://{{sender.event.website}}">{{sender.event.website}}</a></small></h4>
