@@ -77,10 +77,10 @@
 
 <!-- testing AngularJS insertion-->
 
-		<div ng-cloak ng-controller="RegionEvents as region" >
+		<div ng-controller="RegionEvents as region">
 			<div class="container">
 				<section ng-controller="PanelController as panel">
-					<div class="panel panel-default">
+					<div class="panel panel-default" ng-cloak>
 						<h3 class="panel-heading">{{region.event.country}}</h3>
 						<ul class="nav nav-pills" >
 							<li class="panel" ng-class="{ active: panel.isSelected(1) }">  
