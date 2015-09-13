@@ -15,19 +15,19 @@
         this.event = missions;
     });
 
-    app.controller('AllEvents', function ($scope, $http) {
-        $http.get('data.json').
-        then(function(data){
-            $scope.missions = data;
-            console.log(data);
-        });
-    });
-
+// ****************
     //I need to set the "churches" to whichever number it is in the id under events.
     // so get region.events.churches[#] and then retrieve
     // retrieving all of the church information in that number of the json file.
     // don't have to get the "id" for the churches, just use it for the json reference.
     // so each thing will go "data.foo.event.longterm"...?
+
+    app.factory('AllEvents', function ($scope, $http) {
+        
+    });
+    
+
+    
 
     var missions = {
         "journeys":
@@ -74,17 +74,4 @@
         }
     };
 
-    app.directive("reachingWorld", function(){
-        return {
-            restrict: 'E',
-            template: '<h1>Reaching the World</h1>'
-        };
-    });
-    app.directive("manyChurches", function(){
-        return {
-            templateUrl: 'many-churches.html'
-        };
-    });
 })();
-
-
