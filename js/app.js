@@ -25,13 +25,11 @@
     app.factory('AllEvents', function ($scope, $http) {
         
     });
-    
-
-    
 
     var missions = {
         "journeys":
-        {
+        [
+            {
             "id": 1,
             "longterm": false,
             "name": "engage",
@@ -48,7 +46,26 @@
             "description": "Come join us as we engage the people of Albania.",
             "sender": 1,
             "churches": 1
-        },
+            },
+            {
+            "id": 2,
+            "long-term": false,
+            "name": "ESL in East Asia",
+            "country": "",
+            "email": "",
+            "address": "",
+            "city": "",
+            "state": "",
+            "zipcode": "",
+            "website": "",
+            "start": "20160615",
+            "end": "20160815",
+            "annual": true,
+            "description": "Come join us as we teach English as a Second Language to the people of East Asia.",
+            "sender": 3,
+            "churches": 1
+            }
+        ],
         "church":
         {
             "id": 1,
