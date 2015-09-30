@@ -15,6 +15,8 @@
         this.event = missions;
     });
 
+    
+
 // ****************
     //I need to set the "churches" to whichever number it is in the id under events.
     // so get region.events.churches[#] and then retrieve
