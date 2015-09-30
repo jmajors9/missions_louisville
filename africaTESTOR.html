@@ -82,7 +82,7 @@
 			<div class="container">
 				<section ng-controller="PanelController as panel">
 					<div class="panel panel-default">
-						<h2 class="panel-heading" ng-cloak>{{missions.event.journeys.country}}</h2>
+						<h2 class="panel-heading" ng-cloak>{{missions.event.journeys[0].country}}</h2>
 						<ul ng-cloak class="nav nav-tabs" >
 							<li class="panel" ng-class="{active:panel.isSelected(1)}">
 								<a href ng-click="panel.selectTab(1)">Information</a></li>
