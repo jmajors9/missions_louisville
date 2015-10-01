@@ -10,10 +10,6 @@
             return this.tab === checkTab;
         };
     });
-
-    app.controller('MissionsEvents', function () {
-        this.event = missions;
-    });
     
     //hopefully this can let me call the data.json file...
     app.controller('MainCtrl', function($scope, $http) {
@@ -21,6 +17,12 @@
          $scope.missionsData = data;
       });
     });
+
+    app.controller('MissionsEvents', function () {
+        this.event = missions;
+    });
+    
+    
 
     
 
