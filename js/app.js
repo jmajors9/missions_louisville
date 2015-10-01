@@ -18,7 +18,7 @@
     //hopefully this can let me call the data.json file...
     app.controller('MainCtrl', function($scope, $http) {
        $http.jsonp('/data.json').success(function(data){
-         $scope.missionsData = missions;
+         $scope.missionsData = data;
       });
     });
 
