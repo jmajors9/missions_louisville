@@ -141,6 +141,10 @@ body {
 /* SVG Maps
 ========================= */
 
+.highlight{
+	fill: #64B5F6;
+}
+
 #BF, #AL, #IN, #PE, #PY, #UA, #GT, #NI, #MA, #PG, #FJ 
 {
 	fill: #64B5F6;
