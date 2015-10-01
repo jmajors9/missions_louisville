@@ -17,16 +17,6 @@
 						<!-- (c) ammap.com | SVG map of Continents - Low -->
 						<svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1050 700">
 							<defs>
-								<style type="text/css">
-									.land
-									{
-										fill: #CCCCCC;
-										fill-opacity: 1;
-										stroke: white;
-										stroke-opacity: 1;
-										stroke-width:0.5;
-									}
-								</style>
 								<amcharts:ammap projection="mercator" leftLongitude="-169.6" topLatitude="83.68" rightLongitude="190.25" bottomLatitude="-55.55"></amcharts:ammap>
 								<!--{id:"south_america"},{id:"north_america"},{id:"asia"},{id:"europe"},{id:"australia"},{id:"africa"}-->
 							</defs>

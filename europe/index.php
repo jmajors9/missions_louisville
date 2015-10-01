@@ -15,16 +15,6 @@
 					<!-- (c) ammap.com | SVG map of World - Low -->
 					<svg class="africaMap" viewBox="400 45 620 320">
 						<defs>
-							<style type="text/css">
-								.land
-								{
-									fill: #CCCCCC;
-									fill-opacity: 1;
-									stroke:white;
-									stroke-opacity: 1;
-									stroke-width:0.5;
-								}
-							</style>
 							<amcharts:ammap projection="mercator" leftLongitude="-169.6" topLatitude="83.68" rightLongitude="190.25" bottomLatitude="-55.55"></amcharts:ammap>
 						</defs>
 						<g>
