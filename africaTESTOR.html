@@ -100,14 +100,14 @@
 						</div>
 						<div ng-cloak class="panel-body" ng-show="panel.isSelected(2)">
 							<h4>Church:<small> {{missions.event.church[missions.event.journeys[0].churches].name}}</small></h4>
-							<h4>Contact email:<small> {{missions.event.church[0].email}}</small></h4>						
-							<h4>Address:<small> {{missions.event.church[0].address}}, {{missions.event.church[0].city}}, {{missions.event.church[0].state}}, {{missions.event.church[0].zipcode}}</small></h4>
-							<h4>website:<small><a href="http://{{missions.event.church[0].website}}"> {{missions.event.church[0].website}}</a></small></h4>
+							<h4>Contact email:<small> {{missions.event.church[missions.event.journeys[0].churches].email}}</small></h4>						
+							<h4>Address:<small> {{missions.event.church[missions.event.journeys[0].churches].address}}, {{missions.event.church[missions.event.journeys[0].churches].city}}, {{missions.event.church[missions.event.journeys[0].churches].state}}, {{missions.event.church[missions.event.journeys[0].churches].zipcode}}</small></h4>
+							<h4>website:<small><a href="http://{{missions.event.church[missions.event.journeys[0].churches].website}}"> {{missions.event.church[missions.event.journeys[0].churches].website}}</a></small></h4>
 						</div>
 						<div ng-cloak class="panel-body" ng-show="panel.isSelected(3)">
-							<h4>Sender:<small> {{missions.event.sendingOrg.name}}</small></h4>
-							<h4>email:<small> {{missions.event.sendingOrg.email}}</small></h4>
-							<h4>website:<small><a href="http://{{missions.event.sendingOrg.website}}"> {{missions.event.sendingOrg.website}}</a></small></h4>
+							<h4>Sender:<small> {{missions.event.sendingOrg[missions.event.journeys[0].sendingOrg].name}}</small></h4>
+							<h4>email:<small> {{missions.event.sendingOrg[missions.event.journeys[0].sendingOrg].email}}</small></h4>
+							<h4>website:<small><a href="http://{{missions.event.sendingOrg[missions.event.journeys[0].sendingOrg].website}}"> {{missions.event.sendingOrg[missions.event.journeys[0].sendingOrg].website}}</a></small></h4>
 						</div>
 						<h2 class="panel-heading">Ukraine</h2>
 						<div class="panel-body">

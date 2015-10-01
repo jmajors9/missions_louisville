@@ -46,8 +46,8 @@
             "end": "August 15, 2015",
             "annual": true,
             "description": "Come join us as we engage the people of Albania.",
-            "sender": 1,
-            "churches": 1
+            "sendingOrg": 1,
+            "church": 1
             },
             {
             "id": 2,
@@ -64,8 +64,8 @@
             "end": "20160815",
             "annual": true,
             "description": "Come join us as we teach English as a Second Language to the people of East Asia.",
-            "sender": 3,
-            "churches": 1
+            "sendingOrg": 3,
+            "church": 1
             }
         ],
         "church":
@@ -94,16 +94,28 @@
             }
         ],
         "sendingOrg":
-        {
-            "id": 1,
-            "name": "SuperNational Workers Board",
-            "email": "director@example.com",
-            "address": "1 This Place",
-            "city": "",
-            "state": "",
-            "zipcode": 0,
-            "website": "snwb.example.com"
-        }
+        [
+            {
+                "id": 1,
+                "name": "SuperNational Workers Board",
+                "email": "director@example.com",
+                "address": "1 This Place",
+                "city": "",
+                "state": "",
+                "zipcode": 0,
+                "website": "snwb.example.com"
+            },
+            {
+                "id": 2,
+                "name": "Board of North American Ministers",
+                "email": "director@example.com",
+                "address": "",
+                "city": "",
+                "state": "",
+                "zipcode": "00000",
+                "website": "bnam.example.com"
+            }
+        ]
     };
 
 })();
