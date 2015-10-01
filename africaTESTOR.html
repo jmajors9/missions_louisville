@@ -82,7 +82,7 @@
 			<div class="container">
 				<section ng-controller="PanelController as panel">
 					<div class="panel panel-default">
-						<h2 class="panel-heading" ng-cloak>{{missions.event.journeys[1].country}}</h2>
+						<h2 class="panel-heading" ng-cloak>{{missions.event.journeys[0].country}}</h2>
 						<ul ng-cloak class="nav nav-tabs" >
 							<li class="panel" ng-class="{active:panel.isSelected(1)}">
 								<a href ng-click="panel.selectTab(1)">Information</a></li>
@@ -92,17 +92,17 @@
 								<a href ng-click="panel.selectTab(3)">Sending Organization</a></li>
 						</ul>
 						<div ng-cloak class="panel-body" ng-show="panel.isSelected(1)">
-							<h4>Name:<small> {{missions.event.journeys[1].name}}</small></h4>
-							<h4>Departure Date:<small> {{missions.event.journeys[1].start}}</small></h4>
-							<h4>Return Date:<small> {{missions.event.journeys[1].end}}</small></h4>
-							<h4>Description:<small> {{missions.event.journeys[1].description}}</small></h4>
-							<h4>Annual Event:<small> {{missions.event.journeys[1].annual}}</small></h4>
+							<h4>Name:<small> {{missions.event.journeys[0].name}}</small></h4>
+							<h4>Departure Date:<small> {{missions.event.journeys[0].start}}</small></h4>
+							<h4>Return Date:<small> {{missions.event.journeys[0].end}}</small></h4>
+							<h4>Description:<small> {{missions.event.journeys[0].description}}</small></h4>
+							<h4>Annual Event:<small> {{missions.event.journeys[0].annual}}</small></h4>
 						</div>
 						<div ng-cloak class="panel-body" ng-show="panel.isSelected(2)">
-							<h4>Church:<small> {{missions.event.church[{{missions.event.journeys[1].church}}].name}}</small></h4>
-							<h4>Contact email:<small> {{missions.event.church[{{missions.event.journeys[1].church}}].email}}</small></h4>						
-							<h4>Address:<small> {{missions.event.church[{{missions.event.journeys[1].church}}].address}}, {{missions.event.church[{{missions.event.journeys[1].church}}].city}}, {{missions.event.church[{{missions.event.journeys[1].church}}].state}}, {{missions.event.church[{{missions.event.journeys[1].church}}].zipcode}}</small></h4>
-							<h4>website:<small><a href="http://{{missions.event.church.website}}"> {{missions.event.church[{{missions.event.journeys[1].church}}].website}}</a></small></h4>
+							<h4>Church:<small> {{missions.event.church.name}}</small></h4>
+							<h4>Contact email:<small> {{missions.event.church.email}}</small></h4>						
+							<h4>Address:<small> {{missions.event.church.address}}, {{missions.event.church.city}}, {{missions.event.church.state}}, {{missions.event.church.zipcode}}</small></h4>
+							<h4>website:<small><a href="http://{{missions.event.church.website}}"> {{missions.event.church.website}}</a></small></h4>
 						</div>
 						<div ng-cloak class="panel-body" ng-show="panel.isSelected(3)">
 							<h4>Sender:<small> {{missions.event.sendingOrg.name}}</small></h4>
