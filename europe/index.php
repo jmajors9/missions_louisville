@@ -9,7 +9,7 @@
 			<div class="col-md-4">
 				<h1>Europe</h1>
 				<p>Highlighted countries are active. Click on a country to find out more.</p>
-				<p>Scroll down to see a list of all events/persons in this region</p>
+				<p>Scroll down to see a list of all events/persons in this region.</p>
 			</div>
 			<div class="col-md-8 img-responsive regionMap">
 					<!-- (c) ammap.com | SVG map of World - Low -->

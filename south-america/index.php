@@ -9,7 +9,7 @@
 			<div class="col-sm-4 col-xs-6">
 				<h1>South America</h1>
 				<p>Highlighted countries are active. Click on a country to find out more.</p>
-				<p>Scroll down to see a list of all events/persons in this region</p>
+				<p>Scroll down to see a list of all events/persons in this region.</p>
 			</div>
 			<div class="col-sm-8 col-xs-6 img-responsive regionMap">
 				<!-- (c) ammap.com | SVG map of World - Low -->

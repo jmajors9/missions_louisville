@@ -9,11 +9,8 @@
 			<div class="container">
 				<div class="col-xs-4">
 					<h1>Africa</h1>
-					<p>
-						This is a page about Africa. I hope to add more in the future
-						<br>
-						Keep scrolling for stuff. Eventually something more than the map will be there.
-					</p>
+					<p>Highlighted countries are active. Click on a country to find out more.</p>
+					<p>Scroll down to see a list of all events/persons in this region.</p>
 				</div>
 
 
