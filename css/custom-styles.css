@@ -93,6 +93,10 @@ body {
   display: none !important;
 }
 
+.regionMap {
+	max-height: 600px;
+}
+
 .content {
 	min-height: 600px;
 }
