@@ -10,7 +10,7 @@
 			<div class="col-md-4 col-sm-6">
 				<h1>Australia and Oceania</h1>
 				<p>Highlighted countries are active. Click on a country to find out more.</p>
-				<p>Scroll down to see a list of all events/persons in this region</p>
+				<p>Scroll down to see a list of all events/persons in this region.</p>
 			</div>
 			<div class="col-md-8 col-sm-6 img-responsive regionMap">
 				<!-- (c) ammap.com | SVG map of World - Low -->
