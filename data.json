@@ -83,7 +83,7 @@
             "end": "",
             "annual": "",
             "description": "",
-            "sender": "",
+            "sendingOrg": "",
             "churches": ""
         },
         {
@@ -101,7 +101,7 @@
             "end": "20160815",
             "annual": true,
             "description": "Come join us as we engage the people of Albania.",
-            "sender": 1,
+            "sendingOrg": 1,
             "churches": 1
         },
         {
@@ -119,7 +119,7 @@
             "end": "20160815",
             "annual": true,
             "description": "Come join us as we teach English as a Second Language to the people of East Asia.",
-            "sender": 3,
+            "sendingOrg": 3,
             "churches": 1
         },
         {
@@ -137,7 +137,7 @@
             "end": "20180815",
             "annual": false,
             "description": "Dr. Jennifer Lindsay is moving to India to work in a leper colony.",
-            "sender": 4,
+            "sendingOrg": 4,
             "churches": 2
         },
         {
@@ -154,7 +154,7 @@
             "start": "20160615",
             "end": "20170815",
             "description": "Charity is moving to Peru. Due to the sensitive nature of her work, we are unable to provide more information.",
-            "sender": 2,
+            "sendingOrg": 2,
             "churches": 2            
         },
         {
@@ -172,7 +172,7 @@
             "end": "20170114",
             "annual": false,
             "description": "Join us as we help local churches in Paraguay.",
-            "sender": 5,
+            "sendingOrg": 5,
             "churches": 3            
         },
         {
@@ -190,7 +190,7 @@
             "end": 20160619,
             "annual": true,
             "description": "We will be visiting churches all over the Ukraine to encourage our brothers and sisters. We are also blessed to deliver many gifts on our journey.",
-            "sender": 1,
+            "sendingOrg": 1,
             "churches": 3
         },
         {
@@ -208,7 +208,7 @@
             "end": 201706,
             "annual": "",
             "description": "Jedediah has the unique opportunity of taking his farming knowhow to the people of Guatemala. Through the blessings of many sponsors, Jed will be able to help a few families start their own coffee farms.",
-            "sender": 2,
+            "sendingOrg": 2,
             "churches": 4
         },
         {
@@ -226,7 +226,7 @@
             "end": 20160427,
             "annual": false,
             "description": "Vamos a Nicaragua para construir los hospitales.",
-            "sender": 5,
+            "sendingOrg": 5,
             "churches": 4
         },
         {
@@ -244,7 +244,7 @@
             "end": 201912,
             "annual": "",
             "description": "Many Moroccans leave their home country to work in France. In Casablanca, Isaac will be serving at a local elementary school teaching French.",
-            "sender": 3,
+            "sendingOrg": 3,
             "churches": 5
         },
         {
@@ -262,7 +262,7 @@
             "end": 20160720,
             "annual": true,
             "description": "Each year we send a group to work a camp for orphaned children.",
-            "sender": 4,
+            "sendingOrg": 4,
             "churches": 5
         },
         {
@@ -280,7 +280,7 @@
             "end": 20160115,
             "annual": false,
             "description": "Due to the sensitive nature of the work, please contact the sending church for more information.",
-            "sender": 2,
+            "sendingOrg": 2,
             "churches": 5
         },
         {
@@ -298,7 +298,7 @@
             "end": 201806,
             "annual": false,
             "description": "Mr. Isaacs and his family moved to Fiji in 2014. While there they have been ministering to the local people and Dr. Isaacs has been priveleged to teach at a local Seminary.",
-            "sender": 1,
+            "sendingOrg": 1,
             "churches": 3
         }
     ],
