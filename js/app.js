@@ -22,10 +22,16 @@
     // });
         // it didn't work, but I'm not going to give up!
 
-    app.controller('MissionsEvents', function () {
-        this.event = missions;
-    });
+    // app.controller('MissionsEvents', function () {
+    //     this.event = missions;
+    // });
     
+    app.controller('MissionsEvents', ['$http', function ($http) {
+        var missions = this;
+        $http.get('/data.json').success(function(data){
+            missions.store = data;
+        });
+    }]);
 
 // ****************
     //I need to set the "churches" to whichever number it is in the id under events.

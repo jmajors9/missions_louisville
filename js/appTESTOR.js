@@ -40,9 +40,12 @@
     // });
         // it didn't work, but I'm not going to give up!
 
-    app.controller('MissionsEvents', function () {
-        this.event = missions;
-    });
+    app.controller('MissionsEvents', ['$http', function ($http) {
+        var missions = this;
+        $http.get('/data.json').success(function(data){
+			missions.store = data;
+        });
+    }]);
     
     
 
@@ -59,94 +62,94 @@
         
     });
 
-    var missions = {
-        "journeys":
-        [
-            {
-            "id": 3,
-            "long-term": true,
-            "name": "Jennifer Lindsay",
-            "country": "India",
-            "email": "jenlin@example.org",
-            "address": "123 Any Street",
-            "city": "Louisville",
-            "state": "Kentucky",
-            "zipcode": "40214",
-            "website": "jennifer.india.example.com",
-            "start": "20160615",
-            "end": "20180815",
-            "annual": false,
-            "description": "Dr. Jennifer Lindsay is moving to India to work in a leper colony.",
-            "sender": 0,
-            "churches": 0
-            },
-            {
-            "id": 2,
-            "long-term": false,
-            "name": "ESL in East Asia",
-            "country": "East Asia",
-            "email": "",
-            "address": "",
-            "city": "",
-            "state": "",
-            "zipcode": "",
-            "website": "",
-            "start": "20160615",
-            "end": "20160815",
-            "annual": true,
-            "description": "Come join us as we teach English as a Second Language to the people of East Asia.",
-            "sendingOrg": 1,
-            "church": 1
-            }
-        ],
-        "church":
-        [
-            {
-                "id": 1,
-                "name": "Primero Iglesia del Louisville",
-                "minister": "Julio Diaz",
-                "email": "jdiaz@example.org",
-                "address": "123 Any Street",
-                "city": "Louisville",
-                "state": "Kentucky",
-                "zipcode": "40214",
-                "website": "primeroiglesia.example.org"
-            },
-            {
-                "id": 2,
-                "name": "View of the Valley Baptist Church",
-                "minister": "Jamal Warner",
-                "email": "jamal@example.com",
-                "address": "123 Other Avenue",
-                "city": "New Albany",
-                "state": "Indiana",
-                "zipcode": "40202",
-                "website": "vvbc.example.org"
-            }
-        ],
-        "sendingOrg":
-        [
-            {
-                "id": 1,
-                "name": "SuperNational Workers Board",
-                "email": "director@example.com",
-                "address": "1 This Place",
-                "city": "",
-                "state": "",
-                "zipcode": 0,
-                "website": "snwb.example.com"
-            },
-            {
-                "id": 2,
-                "name": "Board of North American Ministers",
-                "email": "director@example.com",
-                "address": "",
-                "city": "",
-                "state": "",
-                "zipcode": "00000",
-                "website": "bnam.example.com"
-            }
-        ]
-    };
+    // var missions = {
+    //     "journeys":
+    //     [
+    //         {
+    //         "id": 3,
+    //         "long-term": true,
+    //         "name": "Jennifer Lindsay",
+    //         "country": "India",
+    //         "email": "jenlin@example.org",
+    //         "address": "123 Any Street",
+    //         "city": "Louisville",
+    //         "state": "Kentucky",
+    //         "zipcode": "40214",
+    //         "website": "jennifer.india.example.com",
+    //         "start": "20160615",
+    //         "end": "20180815",
+    //         "annual": false,
+    //         "description": "Dr. Jennifer Lindsay is moving to India to work in a leper colony.",
+    //         "sender": 0,
+    //         "churches": 0
+    //         },
+    //         {
+    //         "id": 2,
+    //         "long-term": false,
+    //         "name": "ESL in East Asia",
+    //         "country": "East Asia",
+    //         "email": "",
+    //         "address": "",
+    //         "city": "",
+    //         "state": "",
+    //         "zipcode": "",
+    //         "website": "",
+    //         "start": "20160615",
+    //         "end": "20160815",
+    //         "annual": true,
+    //         "description": "Come join us as we teach English as a Second Language to the people of East Asia.",
+    //         "sendingOrg": 1,
+    //         "church": 1
+    //         }
+    //     ],
+    //     "church":
+    //     [
+    //         {
+    //             "id": 1,
+    //             "name": "Primero Iglesia del Louisville",
+    //             "minister": "Julio Diaz",
+    //             "email": "jdiaz@example.org",
+    //             "address": "123 Any Street",
+    //             "city": "Louisville",
+    //             "state": "Kentucky",
+    //             "zipcode": "40214",
+    //             "website": "primeroiglesia.example.org"
+    //         },
+    //         {
+    //             "id": 2,
+    //             "name": "View of the Valley Baptist Church",
+    //             "minister": "Jamal Warner",
+    //             "email": "jamal@example.com",
+    //             "address": "123 Other Avenue",
+    //             "city": "New Albany",
+    //             "state": "Indiana",
+    //             "zipcode": "40202",
+    //             "website": "vvbc.example.org"
+    //         }
+    //     ],
+    //     "sendingOrg":
+    //     [
+    //         {
+    //             "id": 1,
+    //             "name": "SuperNational Workers Board",
+    //             "email": "director@example.com",
+    //             "address": "1 This Place",
+    //             "city": "",
+    //             "state": "",
+    //             "zipcode": 0,
+    //             "website": "snwb.example.com"
+    //         },
+    //         {
+    //             "id": 2,
+    //             "name": "Board of North American Ministers",
+    //             "email": "director@example.com",
+    //             "address": "",
+    //             "city": "",
+    //             "state": "",
+    //             "zipcode": "00000",
+    //             "website": "bnam.example.com"
+    //         }
+    //     ]
+    // };
 
 })();
