@@ -43,7 +43,7 @@
     app.controller('MissionsEvents', ['$http', function ($http) {
         var missions = this;
         $http.get('/data.json').success(function(data){
-			missions.store = data;
+            missions.event = data;
         });
     }]);
     
