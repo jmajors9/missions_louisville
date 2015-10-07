@@ -1,15 +1,33 @@
 (function (){
 	var app = angular.module('region', []);
 
-    app.controller('PanelController', function(){
-        this.tab = 1;
-        this.selectTab = function(setTab) {
-            this.tab = setTab;
-        };
-        this.isSelected = function(checkTab) {
-            return this.tab === checkTab;
+    app.directive('journeyPanels', function(){
+        return {
+            restrict: 'E',
+            templateUrl: 'journey-panels.html',
+            controller: function(){
+                this.tab = 1;
+                this.selectTab = function(setTab) {
+                    this.tab = setTab;
+                };
+                this.isSelected = function(checkTab) {
+                    return this.tab === checkTab;
+                };
+            },
+            controllerAs: 'panels'
         };
     });
+
+
+	// app.controller('PanelController', function(){
+ //        this.tab = 1;
+ //        this.selectTab = function(setTab) {
+ //            this.tab = setTab;
+ //        };
+ //        this.isSelected = function(checkTab) {
+ //            return this.tab === checkTab;
+ //        };
+ //    });
     
     //trying to remote call the panels
     
@@ -26,6 +44,9 @@
         this.event = missions;
     });
     
+    
+
+    
 
 // ****************
     //I need to set the "churches" to whichever number it is in the id under events.
@@ -34,30 +55,30 @@
     // don't have to get the "id" for the churches, just use it for the json reference.
     // so each thing will go "data.foo.event.longterm"...?
 
-    // app.factory('AllEvents', function ($scope, $http) {
+    app.factory('AllEvents', function ($scope, $http) {
         
-    // });
+    });
 
     var missions = {
         "journeys":
         [
             {
-            "id": 1,
-            "longterm": false,
-            "name": "engage",
-            "country": "Albania",
-            "email": "",
-            "address": "",
-            "city": "",
-            "state": "",
-            "zipcode": "",
-            "website": "",
-            "start": "June 15, 2015",
-            "end": "August 15, 2015",
-            "annual": true,
-            "description": "Come join us as we engage the people of Albania.",
-            "sendingOrg": 0,
-            "church": 0
+            "id": 3,
+            "long-term": true,
+            "name": "Jennifer Lindsay",
+            "country": "India",
+            "email": "jenlin@example.org",
+            "address": "123 Any Street",
+            "city": "Louisville",
+            "state": "Kentucky",
+            "zipcode": "40214",
+            "website": "jennifer.india.example.com",
+            "start": "20160615",
+            "end": "20180815",
+            "annual": false,
+            "description": "Dr. Jennifer Lindsay is moving to India to work in a leper colony.",
+            "sender": 0,
+            "churches": 0
             },
             {
             "id": 2,
