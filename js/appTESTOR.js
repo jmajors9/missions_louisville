@@ -18,6 +18,8 @@
         };
     });
 
+app.directive('')
+
 
 	// app.controller('PanelController', function(){
  //        this.tab = 1;
@@ -58,9 +60,9 @@
     // don't have to get the "id" for the churches, just use it for the json reference.
     // so each thing will go "data.foo.event.longterm"...?
 
-    app.factory('AllEvents', function ($scope, $http) {
+    // app.factory('AllEvents', function ($scope, $http) {
         
-    });
+    // });
 
     // var missions = {
     //     "journeys":
